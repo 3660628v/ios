@@ -64,6 +64,14 @@
 		1802FB47165BCE650047E597 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB46165BCE650047E597 /* SystemConfiguration.framework */; };
 		1802FB49165BCEC00047E597 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB48165BCEC00047E597 /* MobileCoreServices.framework */; };
 		1802FB4B165BCED10047E597 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB4A165BCED10047E597 /* libz.dylib */; };
+		1802FB59165BE54F0047E597 /* ClientMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB58165BE54F0047E597 /* ClientMainViewController.m */; };
+		1802FB5D165BE6480047E597 /* AIGOMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB5C165BE6480047E597 /* AIGOMapPoint.m */; };
+		1802FB65165BE7800047E597 /* Add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB5F165BE7800047E597 /* Add-icon.png */; };
+		1802FB66165BE7800047E597 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB60165BE7800047E597 /* car.png */; };
+		1802FB67165BE7800047E597 /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB61165BE7800047E597 /* car2.png */; };
+		1802FB68165BE7800047E597 /* fells_loop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB62165BE7800047E597 /* fells_loop.gpx */; };
+		1802FB69165BE7800047E597 /* pin16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB63165BE7800047E597 /* pin16.png */; };
+		1802FB6A165BE7800047E597 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB64165BE7800047E597 /* Search.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,6 +184,16 @@
 		1802FB46165BCE650047E597 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1802FB48165BCEC00047E597 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1802FB4A165BCED10047E597 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1802FB57165BE54F0047E597 /* ClientMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientMainViewController.h; sourceTree = "<group>"; };
+		1802FB58165BE54F0047E597 /* ClientMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientMainViewController.m; sourceTree = "<group>"; };
+		1802FB5B165BE6480047E597 /* AIGOMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIGOMapPoint.h; sourceTree = "<group>"; };
+		1802FB5C165BE6480047E597 /* AIGOMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIGOMapPoint.m; sourceTree = "<group>"; };
+		1802FB5F165BE7800047E597 /* Add-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add-icon.png"; sourceTree = "<group>"; };
+		1802FB60165BE7800047E597 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		1802FB61165BE7800047E597 /* car2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car2.png; sourceTree = "<group>"; };
+		1802FB62165BE7800047E597 /* fells_loop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fells_loop.gpx; sourceTree = "<group>"; };
+		1802FB63165BE7800047E597 /* pin16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin16.png; sourceTree = "<group>"; };
+		1802FB64165BE7800047E597 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,11 +201,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1802FB1F165BCCF00047E597 /* MapKit.framework in Frameworks */,
 				1802FB4B165BCED10047E597 /* libz.dylib in Frameworks */,
 				1802FB49165BCEC00047E597 /* MobileCoreServices.framework in Frameworks */,
 				1802FB47165BCE650047E597 /* SystemConfiguration.framework in Frameworks */,
 				1802FB45165BCE200047E597 /* CFNetwork.framework in Frameworks */,
-				1802FB1F165BCCF00047E597 /* MapKit.framework in Frameworks */,
 				1802FB1D165BCCE00047E597 /* CoreLocation.framework in Frameworks */,
 				1802FA2C165BC34A0047E597 /* UIKit.framework in Frameworks */,
 				1802FA2E165BC34A0047E597 /* Foundation.framework in Frameworks */,
@@ -407,6 +425,7 @@
 		1802FA90165BC7200047E597 /* 03_RESOURCES */ = {
 			isa = PBXGroup;
 			children = (
+				1802FB5E165BE7800047E597 /* 01_IMAGES */,
 				1802FAC4165BC8290047E597 /* Default-568h@2x.png */,
 				1802FAC5165BC8290047E597 /* Default.png */,
 				1802FAC6165BC8290047E597 /* Default@2x.png */,
@@ -437,6 +456,7 @@
 		1802FACA165BC8310047E597 /* 01_MAIN */ = {
 			isa = PBXGroup;
 			children = (
+				1802FB55165BE5240047E597 /* 01_ClIENT */,
 				1802FACB165BC8310047E597 /* AppDelegate.h */,
 				1802FACC165BC8310047E597 /* AppDelegate.m */,
 				1802FACD165BC8310047E597 /* InfoPlist.strings */,
@@ -475,6 +495,30 @@
 				1802FB36165BCD2B0047E597 /* Reachability.m */,
 			);
 			path = ASIHTTP;
+			sourceTree = "<group>";
+		};
+		1802FB55165BE5240047E597 /* 01_ClIENT */ = {
+			isa = PBXGroup;
+			children = (
+				1802FB57165BE54F0047E597 /* ClientMainViewController.h */,
+				1802FB58165BE54F0047E597 /* ClientMainViewController.m */,
+				1802FB5B165BE6480047E597 /* AIGOMapPoint.h */,
+				1802FB5C165BE6480047E597 /* AIGOMapPoint.m */,
+			);
+			path = 01_ClIENT;
+			sourceTree = "<group>";
+		};
+		1802FB5E165BE7800047E597 /* 01_IMAGES */ = {
+			isa = PBXGroup;
+			children = (
+				1802FB5F165BE7800047E597 /* Add-icon.png */,
+				1802FB60165BE7800047E597 /* car.png */,
+				1802FB61165BE7800047E597 /* car2.png */,
+				1802FB62165BE7800047E597 /* fells_loop.gpx */,
+				1802FB63165BE7800047E597 /* pin16.png */,
+				1802FB64165BE7800047E597 /* Search.png */,
+			);
+			path = 01_IMAGES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -533,6 +577,12 @@
 				1802FAC9165BC8290047E597 /* Default@2x.png in Resources */,
 				1802FAD5165BC8310047E597 /* InfoPlist.strings in Resources */,
 				1802FAD6165BC8310047E597 /* MainStoryboard.storyboard in Resources */,
+				1802FB65165BE7800047E597 /* Add-icon.png in Resources */,
+				1802FB66165BE7800047E597 /* car.png in Resources */,
+				1802FB67165BE7800047E597 /* car2.png in Resources */,
+				1802FB68165BE7800047E597 /* fells_loop.gpx in Resources */,
+				1802FB69165BE7800047E597 /* pin16.png in Resources */,
+				1802FB6A165BE7800047E597 /* Search.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +636,8 @@
 				1802FB3E165BCD2B0047E597 /* ASINetworkQueue.m in Sources */,
 				1802FB3F165BCD2B0047E597 /* Reachability.m in Sources */,
 				1802FB44165BCD7D0047E597 /* SupportFunction.m in Sources */,
+				1802FB59165BE54F0047E597 /* ClientMainViewController.m in Sources */,
+				1802FB5D165BE6480047E597 /* AIGOMapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,6 +754,7 @@
 				1802FA4D165BC34A0047E597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
