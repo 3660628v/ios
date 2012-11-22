@@ -6,13 +6,13 @@
 //  Copyright (c) 2012 AIGO. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AppViewController.h"
 
-@interface ViewController ()
+@interface AppViewController ()
 
 @end
 
-@implementation ViewController
+@implementation AppViewController
 
 - (void)viewDidLoad
 {
@@ -24,6 +24,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+/////////////////////////////////
+static AppViewController *_appVCInstance;
++ (AppViewController *)Shared
+{
+    if (!_appVCInstance) {
+        _appVCInstance = [[AppViewController alloc] init];
+    }
+    return _appVCInstance;
 }
 
 @end

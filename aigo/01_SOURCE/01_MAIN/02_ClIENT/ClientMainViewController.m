@@ -9,8 +9,8 @@
 #import "ClientMainViewController.h"
 
 @interface ClientMainViewController ()
-@property (weak, nonatomic) IBOutlet MKMapView *mapView;
-@property (weak, nonatomic) IBOutlet UILabel *distanceLabel;
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property (strong, nonatomic) IBOutlet UILabel *distanceLabel;
 @end
 
 @implementation ClientMainViewController
@@ -22,8 +22,8 @@
     NSMutableArray *path;
     MKPolyline *line;
 }
-@synthesize m_addressLabel;
-@synthesize m_notificationLabel;
+@synthesize addressLabel;
+@synthesize notificationLabel;
 @synthesize mapView;
 @synthesize distanceLabel;
 
@@ -63,8 +63,8 @@
     [self setMapView:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [self setDistanceLabel:nil];
-    [self setM_addressLabel:nil];
-    [self setM_notificationLabel:nil];
+    [self setAddressLabel:nil];
+    [self setNotificationLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -181,7 +181,7 @@
             
             // Add a More Info button to the annotation's view.
             NSString *addLine = [[dic valueForKey:@"FormattedAddressLines"] componentsJoinedByString:@", "];
-            [self.m_addressLabel setText:addLine];
+            [self.addressLabel setText:addLine];
         }
     } ];
 }

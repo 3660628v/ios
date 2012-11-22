@@ -17,7 +17,7 @@
 #define NUM_TAXI NUM_TAXI_7SEATS + NUM_TAXI_4SEATS
 
 @interface ClientMainViewController : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate>
-@property (weak, nonatomic) IBOutlet UILabel *m_addressLabel;
-@property (weak, nonatomic) IBOutlet UILabel *m_notificationLabel;
+@property (strong, nonatomic) IBOutlet UILabel *addressLabel;
+@property (strong, nonatomic) IBOutlet UILabel *notificationLabel;
 - (IBAction)FindLocation:(id)sender;
 @end
