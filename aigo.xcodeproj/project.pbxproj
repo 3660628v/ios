@@ -70,6 +70,8 @@
 		D70FAF70165DF738000AED71 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF68165DF738000AED71 /* AppViewController.m */; };
 		D70FAF71165DF738000AED71 /* AIGOMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF6B165DF738000AED71 /* AIGOMapPoint.m */; };
 		D70FAF72165DF738000AED71 /* ClientMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF6D165DF738000AED71 /* ClientMainViewController.m */; };
+		D7D38E39165E8395009D2AF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7D38E37165E8395009D2AF1 /* InfoPlist.strings */; };
+		D7D38E3A165E8395009D2AF1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D38E38165E8395009D2AF1 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -190,6 +192,8 @@
 		D70FAF6B165DF738000AED71 /* AIGOMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIGOMapPoint.m; sourceTree = "<group>"; };
 		D70FAF6C165DF738000AED71 /* ClientMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientMainViewController.h; sourceTree = "<group>"; };
 		D70FAF6D165DF738000AED71 /* ClientMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientMainViewController.m; sourceTree = "<group>"; };
+		D7D38E37165E8395009D2AF1 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		D7D38E38165E8395009D2AF1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +266,8 @@
 			children = (
 				1802FA33165BC34A0047E597 /* aigo-Info.plist */,
 				1802FA39165BC34A0047E597 /* aigo-Prefix.pch */,
+				D7D38E37165E8395009D2AF1 /* InfoPlist.strings */,
+				D7D38E38165E8395009D2AF1 /* MainStoryboard.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -583,6 +589,8 @@
 				1802FB68165BE7800047E597 /* fells_loop.gpx in Resources */,
 				1802FB69165BE7800047E597 /* pin16.png in Resources */,
 				1802FB6A165BE7800047E597 /* Search.png in Resources */,
+				D7D38E39165E8395009D2AF1 /* InfoPlist.strings in Resources */,
+				D7D38E3A165E8395009D2AF1 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
