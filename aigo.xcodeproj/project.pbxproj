@@ -65,13 +65,13 @@
 		1802FB68165BE7800047E597 /* fells_loop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB62165BE7800047E597 /* fells_loop.gpx */; };
 		1802FB69165BE7800047E597 /* pin16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB63165BE7800047E597 /* pin16.png */; };
 		1802FB6A165BE7800047E597 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB64165BE7800047E597 /* Search.png */; };
-		D70FAF6E165DF738000AED71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF65165DF738000AED71 /* AppDelegate.m */; };
-		D70FAF6F165DF738000AED71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF66165DF738000AED71 /* main.m */; };
-		D70FAF70165DF738000AED71 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF68165DF738000AED71 /* AppViewController.m */; };
 		D70FAF71165DF738000AED71 /* AIGOMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF6B165DF738000AED71 /* AIGOMapPoint.m */; };
 		D70FAF72165DF738000AED71 /* ClientMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF6D165DF738000AED71 /* ClientMainViewController.m */; };
-		D7D38E39165E8395009D2AF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7D38E37165E8395009D2AF1 /* InfoPlist.strings */; };
-		D7D38E3A165E8395009D2AF1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D38E38165E8395009D2AF1 /* MainStoryboard.storyboard */; };
+		D7B11D20165F0CDC00F4F785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B11D19165F0CDC00F4F785 /* AppDelegate.m */; };
+		D7B11D21165F0CDC00F4F785 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B11D1B165F0CDC00F4F785 /* AppViewController.m */; };
+		D7B11D22165F0CDC00F4F785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B11D1C165F0CDC00F4F785 /* InfoPlist.strings */; };
+		D7B11D23165F0CDC00F4F785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B11D1D165F0CDC00F4F785 /* main.m */; };
+		D7B11D24165F0CDC00F4F785 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B11D1E165F0CDC00F4F785 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,8 +79,6 @@
 		1802FA2B165BC34A0047E597 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1802FA2D165BC34A0047E597 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1802FA2F165BC34A0047E597 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1802FA33165BC34A0047E597 /* aigo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aigo-Info.plist"; sourceTree = "<group>"; };
-		1802FA39165BC34A0047E597 /* aigo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aigo-Prefix.pch"; sourceTree = "<group>"; };
 		1802FA51165BC7200047E597 /* api.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = api.html; sourceTree = "<group>"; };
 		1802FA56165BC7200047E597 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
 		1802FA57165BC7200047E597 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
@@ -183,17 +181,19 @@
 		1802FB62165BE7800047E597 /* fells_loop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fells_loop.gpx; sourceTree = "<group>"; };
 		1802FB63165BE7800047E597 /* pin16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin16.png; sourceTree = "<group>"; };
 		1802FB64165BE7800047E597 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
-		D70FAF64165DF738000AED71 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D70FAF65165DF738000AED71 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D70FAF66165DF738000AED71 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D70FAF67165DF738000AED71 /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
-		D70FAF68165DF738000AED71 /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
 		D70FAF6A165DF738000AED71 /* AIGOMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIGOMapPoint.h; sourceTree = "<group>"; };
 		D70FAF6B165DF738000AED71 /* AIGOMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIGOMapPoint.m; sourceTree = "<group>"; };
 		D70FAF6C165DF738000AED71 /* ClientMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientMainViewController.h; sourceTree = "<group>"; };
 		D70FAF6D165DF738000AED71 /* ClientMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientMainViewController.m; sourceTree = "<group>"; };
-		D7D38E37165E8395009D2AF1 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
-		D7D38E38165E8395009D2AF1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D7B11D16165F0CDC00F4F785 /* aigo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aigo-Info.plist"; sourceTree = "<group>"; };
+		D7B11D17165F0CDC00F4F785 /* aigo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "aigo-Prefix.pch"; sourceTree = "<group>"; };
+		D7B11D18165F0CDC00F4F785 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7B11D19165F0CDC00F4F785 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7B11D1A165F0CDC00F4F785 /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		D7B11D1B165F0CDC00F4F785 /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		D7B11D1C165F0CDC00F4F785 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		D7B11D1D165F0CDC00F4F785 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7B11D1E165F0CDC00F4F785 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,7 +223,6 @@
 				1802FA4F165BC7200047E597 /* 02_LIBS */,
 				1802FA90165BC7200047E597 /* 03_RESOURCES */,
 				1802FA91165BC7200047E597 /* 04_SUPPORT */,
-				1802FA31165BC34A0047E597 /* aigo */,
 				1802FA2A165BC34A0047E597 /* Frameworks */,
 				1802FA28165BC34A0047E597 /* Products */,
 			);
@@ -251,25 +250,6 @@
 				1802FA2F165BC34A0047E597 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1802FA31165BC34A0047E597 /* aigo */ = {
-			isa = PBXGroup;
-			children = (
-				1802FA32165BC34A0047E597 /* Supporting Files */,
-			);
-			path = aigo;
-			sourceTree = "<group>";
-		};
-		1802FA32165BC34A0047E597 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1802FA33165BC34A0047E597 /* aigo-Info.plist */,
-				1802FA39165BC34A0047E597 /* aigo-Prefix.pch */,
-				D7D38E37165E8395009D2AF1 /* InfoPlist.strings */,
-				D7D38E38165E8395009D2AF1 /* MainStoryboard.storyboard */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		1802FA4E165BC7200047E597 /* 01_SOURCE */ = {
@@ -458,7 +438,7 @@
 		1802FACA165BC8310047E597 /* 01_MAIN */ = {
 			isa = PBXGroup;
 			children = (
-				D70FAF63165DF738000AED71 /* 01_APP */,
+				D7B11D15165F0CDC00F4F785 /* 01_APP */,
 				D70FAF69165DF738000AED71 /* 02_ClIENT */,
 			);
 			path = 01_MAIN;
@@ -506,18 +486,6 @@
 			path = 01_IMAGES;
 			sourceTree = "<group>";
 		};
-		D70FAF63165DF738000AED71 /* 01_APP */ = {
-			isa = PBXGroup;
-			children = (
-				D70FAF66165DF738000AED71 /* main.m */,
-				D70FAF64165DF738000AED71 /* AppDelegate.h */,
-				D70FAF65165DF738000AED71 /* AppDelegate.m */,
-				D70FAF67165DF738000AED71 /* AppViewController.h */,
-				D70FAF68165DF738000AED71 /* AppViewController.m */,
-			);
-			path = 01_APP;
-			sourceTree = "<group>";
-		};
 		D70FAF69165DF738000AED71 /* 02_ClIENT */ = {
 			isa = PBXGroup;
 			children = (
@@ -527,6 +495,22 @@
 				D70FAF6D165DF738000AED71 /* ClientMainViewController.m */,
 			);
 			path = 02_ClIENT;
+			sourceTree = "<group>";
+		};
+		D7B11D15165F0CDC00F4F785 /* 01_APP */ = {
+			isa = PBXGroup;
+			children = (
+				D7B11D16165F0CDC00F4F785 /* aigo-Info.plist */,
+				D7B11D17165F0CDC00F4F785 /* aigo-Prefix.pch */,
+				D7B11D1C165F0CDC00F4F785 /* InfoPlist.strings */,
+				D7B11D1D165F0CDC00F4F785 /* main.m */,
+				D7B11D1E165F0CDC00F4F785 /* MainStoryboard.storyboard */,
+				D7B11D18165F0CDC00F4F785 /* AppDelegate.h */,
+				D7B11D19165F0CDC00F4F785 /* AppDelegate.m */,
+				D7B11D1A165F0CDC00F4F785 /* AppViewController.h */,
+				D7B11D1B165F0CDC00F4F785 /* AppViewController.m */,
+			);
+			path = 01_APP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -589,8 +573,8 @@
 				1802FB68165BE7800047E597 /* fells_loop.gpx in Resources */,
 				1802FB69165BE7800047E597 /* pin16.png in Resources */,
 				1802FB6A165BE7800047E597 /* Search.png in Resources */,
-				D7D38E39165E8395009D2AF1 /* InfoPlist.strings in Resources */,
-				D7D38E3A165E8395009D2AF1 /* MainStoryboard.storyboard in Resources */,
+				D7B11D22165F0CDC00F4F785 /* InfoPlist.strings in Resources */,
+				D7B11D24165F0CDC00F4F785 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,11 +625,11 @@
 				1802FB3E165BCD2B0047E597 /* ASINetworkQueue.m in Sources */,
 				1802FB3F165BCD2B0047E597 /* Reachability.m in Sources */,
 				1802FB44165BCD7D0047E597 /* SupportFunction.m in Sources */,
-				D70FAF6E165DF738000AED71 /* AppDelegate.m in Sources */,
-				D70FAF6F165DF738000AED71 /* main.m in Sources */,
-				D70FAF70165DF738000AED71 /* AppViewController.m in Sources */,
 				D70FAF71165DF738000AED71 /* AIGOMapPoint.m in Sources */,
 				D70FAF72165DF738000AED71 /* ClientMainViewController.m in Sources */,
+				D7B11D20165F0CDC00F4F785 /* AppDelegate.m in Sources */,
+				D7B11D21165F0CDC00F4F785 /* AppViewController.m in Sources */,
+				D7B11D23165F0CDC00F4F785 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,8 +692,8 @@
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "aigo/aigo-Prefix.pch";
-				INFOPLIST_FILE = "aigo/aigo-Info.plist";
+				GCC_PREFIX_HEADER = "aigo/01_SOURCE/01_MAIN/01_APP/aigo-Prefix.pch";
+				INFOPLIST_FILE = "aigo/01_SOURCE/01_MAIN/01_APP/aigo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -724,8 +708,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "aigo/aigo-Prefix.pch";
-				INFOPLIST_FILE = "aigo/aigo-Info.plist";
+				GCC_PREFIX_HEADER = "aigo/01_SOURCE/01_MAIN/01_APP/aigo-Prefix.pch";
+				INFOPLIST_FILE = "aigo/01_SOURCE/01_MAIN/01_APP/aigo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

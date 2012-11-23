@@ -174,10 +174,10 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ClientMainViewController.h"/>
             <relationships>
                 <relationship kind="action" name="FindLocation:"/>
+                <relationship kind="outlet" name="addressLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="distanceLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="m_addressLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="m_notificationLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+                <relationship kind="outlet" name="notificationLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
