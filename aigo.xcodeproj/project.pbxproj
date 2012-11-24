@@ -36,9 +36,6 @@
 		1802FAB9165BC7200047E597 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA8B165BC7200047E597 /* SBJsonTokeniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1802FABA165BC7200047E597 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA8D165BC7200047E597 /* SBJsonUTF8Stream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1802FABB165BC7200047E597 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA8F165BC7200047E597 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1802FAC7165BC8290047E597 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FAC4165BC8290047E597 /* Default-568h@2x.png */; };
-		1802FAC8165BC8290047E597 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FAC5165BC8290047E597 /* Default.png */; };
-		1802FAC9165BC8290047E597 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FAC6165BC8290047E597 /* Default@2x.png */; };
 		1802FAE8165BC9B60047E597 /* APIRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FADA165BC9B60047E597 /* APIRequester.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1802FAEB165BC9B60047E597 /* TouchedGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FAE1165BC9B60047E597 /* TouchedGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1802FAED165BC9B60047E597 /* UIImageExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FAE5165BC9B60047E597 /* UIImageExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -59,12 +56,6 @@
 		1802FB47165BCE650047E597 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB46165BCE650047E597 /* SystemConfiguration.framework */; };
 		1802FB49165BCEC00047E597 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB48165BCEC00047E597 /* MobileCoreServices.framework */; };
 		1802FB4B165BCED10047E597 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB4A165BCED10047E597 /* libz.dylib */; };
-		1802FB65165BE7800047E597 /* Add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB5F165BE7800047E597 /* Add-icon.png */; };
-		1802FB66165BE7800047E597 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB60165BE7800047E597 /* car.png */; };
-		1802FB67165BE7800047E597 /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB61165BE7800047E597 /* car2.png */; };
-		1802FB68165BE7800047E597 /* fells_loop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB62165BE7800047E597 /* fells_loop.gpx */; };
-		1802FB69165BE7800047E597 /* pin16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB63165BE7800047E597 /* pin16.png */; };
-		1802FB6A165BE7800047E597 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 1802FB64165BE7800047E597 /* Search.png */; };
 		D70FAF71165DF738000AED71 /* AIGOMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF6B165DF738000AED71 /* AIGOMapPoint.m */; };
 		D70FAF72165DF738000AED71 /* ClientMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF6D165DF738000AED71 /* ClientMainViewController.m */; };
 		D7B11D20165F0CDC00F4F785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B11D19165F0CDC00F4F785 /* AppDelegate.m */; };
@@ -72,10 +63,84 @@
 		D7B11D22165F0CDC00F4F785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B11D1C165F0CDC00F4F785 /* InfoPlist.strings */; };
 		D7B11D23165F0CDC00F4F785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B11D1D165F0CDC00F4F785 /* main.m */; };
 		D7B11D24165F0CDC00F4F785 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B11D1E165F0CDC00F4F785 /* MainStoryboard.storyboard */; };
+		D7BC7EB1165FAC07005DB855 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA57165BC7200047E597 /* City.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EB2165FAC07005DB855 /* SBRouteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA5A165BC7200047E597 /* SBRouteAnnotation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EB3165FAC07005DB855 /* SBMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA5E165BC7200047E597 /* SBMapView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EB4165FAC07005DB855 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA61165BC7200047E597 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EB5165FAC07005DB855 /* UICGCheckPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA63165BC7200047E597 /* UICGCheckPoint.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EB6165FAC07005DB855 /* UICGDirections.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA65165BC7200047E597 /* UICGDirections.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EB7165FAC07005DB855 /* UICGDirectionsOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA67165BC7200047E597 /* UICGDirectionsOptions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EB8165FAC07005DB855 /* UICGoogleMapsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA69165BC7200047E597 /* UICGoogleMapsAPI.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EB9165FAC07005DB855 /* UICGPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA6B165BC7200047E597 /* UICGPolyline.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EBA165FAC07005DB855 /* UICGRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA6D165BC7200047E597 /* UICGRoute.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EBB165FAC07005DB855 /* UICGRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA6F165BC7200047E597 /* UICGRoutes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EBC165FAC07005DB855 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA73165BC7200047E597 /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EBD165FAC07005DB855 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA75165BC7200047E597 /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EBE165FAC07005DB855 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA77165BC7200047E597 /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EBF165FAC07005DB855 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA79165BC7200047E597 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EC0165FAC07005DB855 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA7B165BC7200047E597 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EC1165FAC07005DB855 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA7D165BC7200047E597 /* SBJsonStreamParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EC2165FAC07005DB855 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA7F165BC7200047E597 /* SBJsonStreamParserAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EC3165FAC07005DB855 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA81165BC7200047E597 /* SBJsonStreamParserAdapter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EC4165FAC07005DB855 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA83165BC7200047E597 /* SBJsonStreamParserState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EC5165FAC07005DB855 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA85165BC7200047E597 /* SBJsonStreamWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EC6165FAC07005DB855 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA87165BC7200047E597 /* SBJsonStreamWriterAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EC7165FAC07005DB855 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA89165BC7200047E597 /* SBJsonStreamWriterState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EC8165FAC07005DB855 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA8B165BC7200047E597 /* SBJsonTokeniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7EC9165FAC07005DB855 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA8D165BC7200047E597 /* SBJsonUTF8Stream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ECA165FAC07005DB855 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FA8F165BC7200047E597 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ECB165FAC07005DB855 /* APIRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FADA165BC9B60047E597 /* APIRequester.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ECC165FAC07005DB855 /* TouchedGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FAE1165BC9B60047E597 /* TouchedGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ECD165FAC07005DB855 /* UIImageExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FAE5165BC9B60047E597 /* UIImageExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ECE165FAC07005DB855 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FAE7165BC9B60047E597 /* Utilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ECF165FAC07005DB855 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB22165BCD2B0047E597 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ED0165FAC07005DB855 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB25165BCD2B0047E597 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ED1165FAC07005DB855 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB27165BCD2B0047E597 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ED2165FAC07005DB855 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB29165BCD2B0047E597 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ED3165FAC07005DB855 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB2B165BCD2B0047E597 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ED4165FAC07005DB855 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB2D165BCD2B0047E597 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ED5165FAC07005DB855 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB31165BCD2B0047E597 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ED6165FAC07005DB855 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB33165BCD2B0047E597 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ED7165FAC07005DB855 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB36165BCD2B0047E597 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ED8165FAC07005DB855 /* SupportFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802FB43165BCD7D0047E597 /* SupportFunction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7BC7ED9165FAC07005DB855 /* AIGOMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF6B165DF738000AED71 /* AIGOMapPoint.m */; };
+		D7BC7EDA165FAC07005DB855 /* ClientMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FAF6D165DF738000AED71 /* ClientMainViewController.m */; };
+		D7BC7EDB165FAC07005DB855 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B11D19165F0CDC00F4F785 /* AppDelegate.m */; };
+		D7BC7EDC165FAC07005DB855 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B11D1B165F0CDC00F4F785 /* AppViewController.m */; };
+		D7BC7EDD165FAC07005DB855 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B11D1D165F0CDC00F4F785 /* main.m */; };
+		D7BC7EDF165FAC07005DB855 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB1E165BCCF00047E597 /* MapKit.framework */; };
+		D7BC7EE0165FAC07005DB855 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB4A165BCED10047E597 /* libz.dylib */; };
+		D7BC7EE1165FAC07005DB855 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB48165BCEC00047E597 /* MobileCoreServices.framework */; };
+		D7BC7EE2165FAC07005DB855 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB46165BCE650047E597 /* SystemConfiguration.framework */; };
+		D7BC7EE3165FAC07005DB855 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB40165BCD5A0047E597 /* CFNetwork.framework */; };
+		D7BC7EE4165FAC07005DB855 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FB1C165BCCE00047E597 /* CoreLocation.framework */; };
+		D7BC7EE5165FAC07005DB855 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FA2B165BC34A0047E597 /* UIKit.framework */; };
+		D7BC7EE6165FAC07005DB855 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FA2D165BC34A0047E597 /* Foundation.framework */; };
+		D7BC7EE7165FAC07005DB855 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1802FA2F165BC34A0047E597 /* CoreGraphics.framework */; };
+		D7BC7EF2165FAC07005DB855 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B11D1C165F0CDC00F4F785 /* InfoPlist.strings */; };
+		D7BC7EF3165FAC07005DB855 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B11D1E165F0CDC00F4F785 /* MainStoryboard.storyboard */; };
+		D7D606F21660FC9D00B553F3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606E81660FC9D00B553F3 /* Default-568h@2x.png */; };
+		D7D606F31660FC9D00B553F3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606E81660FC9D00B553F3 /* Default-568h@2x.png */; };
+		D7D606F41660FC9D00B553F3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606E91660FC9D00B553F3 /* Default.png */; };
+		D7D606F51660FC9D00B553F3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606E91660FC9D00B553F3 /* Default.png */; };
+		D7D606F61660FC9D00B553F3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606EA1660FC9D00B553F3 /* Default@2x.png */; };
+		D7D606F71660FC9D00B553F3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606EA1660FC9D00B553F3 /* Default@2x.png */; };
+		D7D606F81660FC9D00B553F3 /* Add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606EC1660FC9D00B553F3 /* Add-icon.png */; };
+		D7D606F91660FC9D00B553F3 /* Add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606EC1660FC9D00B553F3 /* Add-icon.png */; };
+		D7D606FA1660FC9D00B553F3 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606ED1660FC9D00B553F3 /* car.png */; };
+		D7D606FB1660FC9D00B553F3 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606ED1660FC9D00B553F3 /* car.png */; };
+		D7D606FC1660FC9D00B553F3 /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606EE1660FC9D00B553F3 /* car2.png */; };
+		D7D606FD1660FC9D00B553F3 /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606EE1660FC9D00B553F3 /* car2.png */; };
+		D7D606FE1660FC9D00B553F3 /* fells_loop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D7D606EF1660FC9D00B553F3 /* fells_loop.gpx */; };
+		D7D606FF1660FC9D00B553F3 /* fells_loop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D7D606EF1660FC9D00B553F3 /* fells_loop.gpx */; };
+		D7D607001660FC9D00B553F3 /* pin16.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606F01660FC9D00B553F3 /* pin16.png */; };
+		D7D607011660FC9D00B553F3 /* pin16.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606F01660FC9D00B553F3 /* pin16.png */; };
+		D7D607021660FC9D00B553F3 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606F11660FC9D00B553F3 /* Search.png */; };
+		D7D607031660FC9D00B553F3 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D606F11660FC9D00B553F3 /* Search.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1802FA27165BC34A0047E597 /* aigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1802FA27165BC34A0047E597 /* AIGO_DRIVER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIGO_DRIVER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1802FA2B165BC34A0047E597 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1802FA2D165BC34A0047E597 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1802FA2F165BC34A0047E597 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -133,9 +198,6 @@
 		1802FA8D165BC7200047E597 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		1802FA8E165BC7200047E597 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		1802FA8F165BC7200047E597 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		1802FAC4165BC8290047E597 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1802FAC5165BC8290047E597 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		1802FAC6165BC8290047E597 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1802FAD9165BC9B60047E597 /* APIRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequester.h; sourceTree = "<group>"; };
 		1802FADA165BC9B60047E597 /* APIRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRequester.m; sourceTree = "<group>"; };
 		1802FADB165BC9B60047E597 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
@@ -175,18 +237,10 @@
 		1802FB46165BCE650047E597 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1802FB48165BCEC00047E597 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1802FB4A165BCED10047E597 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		1802FB5F165BE7800047E597 /* Add-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add-icon.png"; sourceTree = "<group>"; };
-		1802FB60165BE7800047E597 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
-		1802FB61165BE7800047E597 /* car2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car2.png; sourceTree = "<group>"; };
-		1802FB62165BE7800047E597 /* fells_loop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fells_loop.gpx; sourceTree = "<group>"; };
-		1802FB63165BE7800047E597 /* pin16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin16.png; sourceTree = "<group>"; };
-		1802FB64165BE7800047E597 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
 		D70FAF6A165DF738000AED71 /* AIGOMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIGOMapPoint.h; sourceTree = "<group>"; };
 		D70FAF6B165DF738000AED71 /* AIGOMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIGOMapPoint.m; sourceTree = "<group>"; };
 		D70FAF6C165DF738000AED71 /* ClientMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientMainViewController.h; sourceTree = "<group>"; };
 		D70FAF6D165DF738000AED71 /* ClientMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientMainViewController.m; sourceTree = "<group>"; };
-		D7B11D16165F0CDC00F4F785 /* aigo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aigo-Info.plist"; sourceTree = "<group>"; };
-		D7B11D17165F0CDC00F4F785 /* aigo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "aigo-Prefix.pch"; sourceTree = "<group>"; };
 		D7B11D18165F0CDC00F4F785 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7B11D19165F0CDC00F4F785 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D7B11D1A165F0CDC00F4F785 /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
@@ -194,6 +248,19 @@
 		D7B11D1C165F0CDC00F4F785 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		D7B11D1D165F0CDC00F4F785 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7B11D1E165F0CDC00F4F785 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D7BC7EF7165FAC07005DB855 /* AIGO_CLIENT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIGO_CLIENT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D606E01660FAE300B553F3 /* AIGO_CLIENT.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AIGO_CLIENT.plist; sourceTree = "<group>"; };
+		D7D606E11660FAE300B553F3 /* AIGO_DRIVER.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AIGO_DRIVER.plist; sourceTree = "<group>"; };
+		D7D606E21660FAE300B553F3 /* AIGO.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIGO.pch; sourceTree = "<group>"; };
+		D7D606E81660FC9D00B553F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D7D606E91660FC9D00B553F3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D7D606EA1660FC9D00B553F3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D7D606EC1660FC9D00B553F3 /* Add-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add-icon.png"; sourceTree = "<group>"; };
+		D7D606ED1660FC9D00B553F3 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		D7D606EE1660FC9D00B553F3 /* car2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car2.png; sourceTree = "<group>"; };
+		D7D606EF1660FC9D00B553F3 /* fells_loop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fells_loop.gpx; sourceTree = "<group>"; };
+		D7D606F01660FC9D00B553F3 /* pin16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin16.png; sourceTree = "<group>"; };
+		D7D606F11660FC9D00B553F3 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +277,22 @@
 				1802FA2C165BC34A0047E597 /* UIKit.framework in Frameworks */,
 				1802FA2E165BC34A0047E597 /* Foundation.framework in Frameworks */,
 				1802FA30165BC34A0047E597 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BC7EDE165FAC07005DB855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BC7EDF165FAC07005DB855 /* MapKit.framework in Frameworks */,
+				D7BC7EE0165FAC07005DB855 /* libz.dylib in Frameworks */,
+				D7BC7EE1165FAC07005DB855 /* MobileCoreServices.framework in Frameworks */,
+				D7BC7EE2165FAC07005DB855 /* SystemConfiguration.framework in Frameworks */,
+				D7BC7EE3165FAC07005DB855 /* CFNetwork.framework in Frameworks */,
+				D7BC7EE4165FAC07005DB855 /* CoreLocation.framework in Frameworks */,
+				D7BC7EE5165FAC07005DB855 /* UIKit.framework in Frameworks */,
+				D7BC7EE6165FAC07005DB855 /* Foundation.framework in Frameworks */,
+				D7BC7EE7165FAC07005DB855 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +314,8 @@
 		1802FA28165BC34A0047E597 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1802FA27165BC34A0047E597 /* aigo.app */,
+				1802FA27165BC34A0047E597 /* AIGO_DRIVER.app */,
+				D7BC7EF7165FAC07005DB855 /* AIGO_CLIENT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -407,10 +491,8 @@
 		1802FA90165BC7200047E597 /* 03_RESOURCES */ = {
 			isa = PBXGroup;
 			children = (
-				1802FB5E165BE7800047E597 /* 01_IMAGES */,
-				1802FAC4165BC8290047E597 /* Default-568h@2x.png */,
-				1802FAC5165BC8290047E597 /* Default.png */,
-				1802FAC6165BC8290047E597 /* Default@2x.png */,
+				D7D606E71660FC9D00B553F3 /* 01_APPS */,
+				D7D606EB1660FC9D00B553F3 /* 02_IMAGES */,
 			);
 			name = 03_RESOURCES;
 			path = aigo/03_RESOURCES;
@@ -473,19 +555,6 @@
 			path = ASIHTTP;
 			sourceTree = "<group>";
 		};
-		1802FB5E165BE7800047E597 /* 01_IMAGES */ = {
-			isa = PBXGroup;
-			children = (
-				1802FB5F165BE7800047E597 /* Add-icon.png */,
-				1802FB60165BE7800047E597 /* car.png */,
-				1802FB61165BE7800047E597 /* car2.png */,
-				1802FB62165BE7800047E597 /* fells_loop.gpx */,
-				1802FB63165BE7800047E597 /* pin16.png */,
-				1802FB64165BE7800047E597 /* Search.png */,
-			);
-			path = 01_IMAGES;
-			sourceTree = "<group>";
-		};
 		D70FAF69165DF738000AED71 /* 02_ClIENT */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,8 +569,9 @@
 		D7B11D15165F0CDC00F4F785 /* 01_APP */ = {
 			isa = PBXGroup;
 			children = (
-				D7B11D16165F0CDC00F4F785 /* aigo-Info.plist */,
-				D7B11D17165F0CDC00F4F785 /* aigo-Prefix.pch */,
+				D7D606E01660FAE300B553F3 /* AIGO_CLIENT.plist */,
+				D7D606E11660FAE300B553F3 /* AIGO_DRIVER.plist */,
+				D7D606E21660FAE300B553F3 /* AIGO.pch */,
 				D7B11D1C165F0CDC00F4F785 /* InfoPlist.strings */,
 				D7B11D1D165F0CDC00F4F785 /* main.m */,
 				D7B11D1E165F0CDC00F4F785 /* MainStoryboard.storyboard */,
@@ -513,12 +583,35 @@
 			path = 01_APP;
 			sourceTree = "<group>";
 		};
+		D7D606E71660FC9D00B553F3 /* 01_APPS */ = {
+			isa = PBXGroup;
+			children = (
+				D7D606E81660FC9D00B553F3 /* Default-568h@2x.png */,
+				D7D606E91660FC9D00B553F3 /* Default.png */,
+				D7D606EA1660FC9D00B553F3 /* Default@2x.png */,
+			);
+			path = 01_APPS;
+			sourceTree = "<group>";
+		};
+		D7D606EB1660FC9D00B553F3 /* 02_IMAGES */ = {
+			isa = PBXGroup;
+			children = (
+				D7D606EC1660FC9D00B553F3 /* Add-icon.png */,
+				D7D606ED1660FC9D00B553F3 /* car.png */,
+				D7D606EE1660FC9D00B553F3 /* car2.png */,
+				D7D606EF1660FC9D00B553F3 /* fells_loop.gpx */,
+				D7D606F01660FC9D00B553F3 /* pin16.png */,
+				D7D606F11660FC9D00B553F3 /* Search.png */,
+			);
+			path = 02_IMAGES;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1802FA26165BC34A0047E597 /* aigo */ = {
+		1802FA26165BC34A0047E597 /* AIGO_DRIVER */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1802FA4B165BC34A0047E597 /* Build configuration list for PBXNativeTarget "aigo" */;
+			buildConfigurationList = 1802FA4B165BC34A0047E597 /* Build configuration list for PBXNativeTarget "AIGO_DRIVER" */;
 			buildPhases = (
 				1802FA23165BC34A0047E597 /* Sources */,
 				1802FA24165BC34A0047E597 /* Frameworks */,
@@ -528,9 +621,26 @@
 			);
 			dependencies = (
 			);
-			name = aigo;
+			name = AIGO_DRIVER;
 			productName = aigo;
-			productReference = 1802FA27165BC34A0047E597 /* aigo.app */;
+			productReference = 1802FA27165BC34A0047E597 /* AIGO_DRIVER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7BC7EAF165FAC07005DB855 /* AIGO_CLIENT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BC7EF4165FAC07005DB855 /* Build configuration list for PBXNativeTarget "AIGO_CLIENT" */;
+			buildPhases = (
+				D7BC7EB0165FAC07005DB855 /* Sources */,
+				D7BC7EDE165FAC07005DB855 /* Frameworks */,
+				D7BC7EE8165FAC07005DB855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIGO_CLIENT;
+			productName = aigo;
+			productReference = D7BC7EF7165FAC07005DB855 /* AIGO_CLIENT.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -554,7 +664,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1802FA26165BC34A0047E597 /* aigo */,
+				1802FA26165BC34A0047E597 /* AIGO_DRIVER */,
+				D7BC7EAF165FAC07005DB855 /* AIGO_CLIENT */,
 			);
 		};
 /* End PBXProject section */
@@ -564,17 +675,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1802FAC7165BC8290047E597 /* Default-568h@2x.png in Resources */,
-				1802FAC8165BC8290047E597 /* Default.png in Resources */,
-				1802FAC9165BC8290047E597 /* Default@2x.png in Resources */,
-				1802FB65165BE7800047E597 /* Add-icon.png in Resources */,
-				1802FB66165BE7800047E597 /* car.png in Resources */,
-				1802FB67165BE7800047E597 /* car2.png in Resources */,
-				1802FB68165BE7800047E597 /* fells_loop.gpx in Resources */,
-				1802FB69165BE7800047E597 /* pin16.png in Resources */,
-				1802FB6A165BE7800047E597 /* Search.png in Resources */,
 				D7B11D22165F0CDC00F4F785 /* InfoPlist.strings in Resources */,
 				D7B11D24165F0CDC00F4F785 /* MainStoryboard.storyboard in Resources */,
+				D7D606F21660FC9D00B553F3 /* Default-568h@2x.png in Resources */,
+				D7D606F41660FC9D00B553F3 /* Default.png in Resources */,
+				D7D606F61660FC9D00B553F3 /* Default@2x.png in Resources */,
+				D7D606F81660FC9D00B553F3 /* Add-icon.png in Resources */,
+				D7D606FA1660FC9D00B553F3 /* car.png in Resources */,
+				D7D606FC1660FC9D00B553F3 /* car2.png in Resources */,
+				D7D606FE1660FC9D00B553F3 /* fells_loop.gpx in Resources */,
+				D7D607001660FC9D00B553F3 /* pin16.png in Resources */,
+				D7D607021660FC9D00B553F3 /* Search.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BC7EE8165FAC07005DB855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BC7EF2165FAC07005DB855 /* InfoPlist.strings in Resources */,
+				D7BC7EF3165FAC07005DB855 /* MainStoryboard.storyboard in Resources */,
+				D7D606F31660FC9D00B553F3 /* Default-568h@2x.png in Resources */,
+				D7D606F51660FC9D00B553F3 /* Default.png in Resources */,
+				D7D606F71660FC9D00B553F3 /* Default@2x.png in Resources */,
+				D7D606F91660FC9D00B553F3 /* Add-icon.png in Resources */,
+				D7D606FB1660FC9D00B553F3 /* car.png in Resources */,
+				D7D606FD1660FC9D00B553F3 /* car2.png in Resources */,
+				D7D606FF1660FC9D00B553F3 /* fells_loop.gpx in Resources */,
+				D7D607011660FC9D00B553F3 /* pin16.png in Resources */,
+				D7D607031660FC9D00B553F3 /* Search.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +759,58 @@
 				D7B11D20165F0CDC00F4F785 /* AppDelegate.m in Sources */,
 				D7B11D21165F0CDC00F4F785 /* AppViewController.m in Sources */,
 				D7B11D23165F0CDC00F4F785 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BC7EB0165FAC07005DB855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BC7EB1165FAC07005DB855 /* City.m in Sources */,
+				D7BC7EB2165FAC07005DB855 /* SBRouteAnnotation.m in Sources */,
+				D7BC7EB3165FAC07005DB855 /* SBMapView.m in Sources */,
+				D7BC7EB4165FAC07005DB855 /* JSONKit.m in Sources */,
+				D7BC7EB5165FAC07005DB855 /* UICGCheckPoint.m in Sources */,
+				D7BC7EB6165FAC07005DB855 /* UICGDirections.m in Sources */,
+				D7BC7EB7165FAC07005DB855 /* UICGDirectionsOptions.m in Sources */,
+				D7BC7EB8165FAC07005DB855 /* UICGoogleMapsAPI.m in Sources */,
+				D7BC7EB9165FAC07005DB855 /* UICGPolyline.m in Sources */,
+				D7BC7EBA165FAC07005DB855 /* UICGRoute.m in Sources */,
+				D7BC7EBB165FAC07005DB855 /* UICGRoutes.m in Sources */,
+				D7BC7EBC165FAC07005DB855 /* NSObject+SBJSON.m in Sources */,
+				D7BC7EBD165FAC07005DB855 /* NSString+SBJSON.m in Sources */,
+				D7BC7EBE165FAC07005DB855 /* SBJSON.m in Sources */,
+				D7BC7EBF165FAC07005DB855 /* SBJsonBase.m in Sources */,
+				D7BC7EC0165FAC07005DB855 /* SBJsonParser.m in Sources */,
+				D7BC7EC1165FAC07005DB855 /* SBJsonStreamParser.m in Sources */,
+				D7BC7EC2165FAC07005DB855 /* SBJsonStreamParserAccumulator.m in Sources */,
+				D7BC7EC3165FAC07005DB855 /* SBJsonStreamParserAdapter.m in Sources */,
+				D7BC7EC4165FAC07005DB855 /* SBJsonStreamParserState.m in Sources */,
+				D7BC7EC5165FAC07005DB855 /* SBJsonStreamWriter.m in Sources */,
+				D7BC7EC6165FAC07005DB855 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				D7BC7EC7165FAC07005DB855 /* SBJsonStreamWriterState.m in Sources */,
+				D7BC7EC8165FAC07005DB855 /* SBJsonTokeniser.m in Sources */,
+				D7BC7EC9165FAC07005DB855 /* SBJsonUTF8Stream.m in Sources */,
+				D7BC7ECA165FAC07005DB855 /* SBJsonWriter.m in Sources */,
+				D7BC7ECB165FAC07005DB855 /* APIRequester.m in Sources */,
+				D7BC7ECC165FAC07005DB855 /* TouchedGestureRecognizer.m in Sources */,
+				D7BC7ECD165FAC07005DB855 /* UIImageExtension.m in Sources */,
+				D7BC7ECE165FAC07005DB855 /* Utilities.m in Sources */,
+				D7BC7ECF165FAC07005DB855 /* ASIAuthenticationDialog.m in Sources */,
+				D7BC7ED0165FAC07005DB855 /* ASIDataCompressor.m in Sources */,
+				D7BC7ED1165FAC07005DB855 /* ASIDataDecompressor.m in Sources */,
+				D7BC7ED2165FAC07005DB855 /* ASIDownloadCache.m in Sources */,
+				D7BC7ED3165FAC07005DB855 /* ASIFormDataRequest.m in Sources */,
+				D7BC7ED4165FAC07005DB855 /* ASIHTTPRequest.m in Sources */,
+				D7BC7ED5165FAC07005DB855 /* ASIInputStream.m in Sources */,
+				D7BC7ED6165FAC07005DB855 /* ASINetworkQueue.m in Sources */,
+				D7BC7ED7165FAC07005DB855 /* Reachability.m in Sources */,
+				D7BC7ED8165FAC07005DB855 /* SupportFunction.m in Sources */,
+				D7BC7ED9165FAC07005DB855 /* AIGOMapPoint.m in Sources */,
+				D7BC7EDA165FAC07005DB855 /* ClientMainViewController.m in Sources */,
+				D7BC7EDB165FAC07005DB855 /* AppDelegate.m in Sources */,
+				D7BC7EDC165FAC07005DB855 /* AppViewController.m in Sources */,
+				D7BC7EDD165FAC07005DB855 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,8 +873,8 @@
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "aigo/01_SOURCE/01_MAIN/01_APP/aigo-Prefix.pch";
-				INFOPLIST_FILE = "aigo/01_SOURCE/01_MAIN/01_APP/aigo-Info.plist";
+				GCC_PREFIX_HEADER = aigo/01_SOURCE/01_MAIN/01_APP/AIGO.pch;
+				INFOPLIST_FILE = aigo/01_SOURCE/01_MAIN/01_APP/AIGO_DRIVER.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -708,10 +889,42 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "aigo/01_SOURCE/01_MAIN/01_APP/aigo-Prefix.pch";
-				INFOPLIST_FILE = "aigo/01_SOURCE/01_MAIN/01_APP/aigo-Info.plist";
+				GCC_PREFIX_HEADER = aigo/01_SOURCE/01_MAIN/01_APP/AIGO.pch;
+				INFOPLIST_FILE = aigo/01_SOURCE/01_MAIN/01_APP/AIGO_DRIVER.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D7BC7EF5165FAC07005DB855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = aigo/01_SOURCE/01_MAIN/01_APP/AIGO.pch;
+				INFOPLIST_FILE = aigo/01_SOURCE/01_MAIN/01_APP/AIGO_CLIENT.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = AIGO_CLIENT;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D7BC7EF6165FAC07005DB855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = aigo/01_SOURCE/01_MAIN/01_APP/AIGO.pch;
+				INFOPLIST_FILE = aigo/01_SOURCE/01_MAIN/01_APP/AIGO_CLIENT.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = AIGO_CLIENT;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
@@ -730,11 +943,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1802FA4B165BC34A0047E597 /* Build configuration list for PBXNativeTarget "aigo" */ = {
+		1802FA4B165BC34A0047E597 /* Build configuration list for PBXNativeTarget "AIGO_DRIVER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1802FA4C165BC34A0047E597 /* Debug */,
 				1802FA4D165BC34A0047E597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BC7EF4165FAC07005DB855 /* Build configuration list for PBXNativeTarget "AIGO_CLIENT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BC7EF5165FAC07005DB855 /* Debug */,
+				D7BC7EF6165FAC07005DB855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
