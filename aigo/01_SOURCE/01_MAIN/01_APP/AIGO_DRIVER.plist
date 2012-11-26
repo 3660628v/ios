@@ -7,7 +7,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>DRIVER</string>
 	<key>CFBundleExecutable</key>
-	<string>DRIVER</string>
+	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.aigogroup.driver</string>
 	<key>CFBundleInfoDictionaryVersion</key>
