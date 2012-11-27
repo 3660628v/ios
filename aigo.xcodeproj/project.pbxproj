@@ -72,6 +72,12 @@
 		189A98E91663C69A00C83147 /* img_title.png in Resources */ = {isa = PBXBuildFile; fileRef = 189A98DB1663C69A00C83147 /* img_title.png */; };
 		18C660601663C258002A027E /* DriverMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6605E1663C258002A027E /* DriverMainViewController.m */; };
 		18C660611663C258002A027E /* DriverMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C6605F1663C258002A027E /* DriverMainViewController.xib */; };
+		2CC5AA591664A71600E5D287 /* btn_callclient_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC5AA561664A71600E5D287 /* btn_callclient_img.png */; };
+		2CC5AA5A1664A71600E5D287 /* btn_callclient_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC5AA561664A71600E5D287 /* btn_callclient_img.png */; };
+		2CC5AA5B1664A71600E5D287 /* btn_cancel_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC5AA571664A71600E5D287 /* btn_cancel_img.png */; };
+		2CC5AA5C1664A71600E5D287 /* btn_cancel_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC5AA571664A71600E5D287 /* btn_cancel_img.png */; };
+		2CC5AA5D1664A71600E5D287 /* btn_notify_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC5AA581664A71600E5D287 /* btn_notify_img.png */; };
+		2CC5AA5E1664A71600E5D287 /* btn_notify_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC5AA581664A71600E5D287 /* btn_notify_img.png */; };
 		D7B11D20165F0CDC00F4F785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B11D19165F0CDC00F4F785 /* AppDelegate.m */; };
 		D7B11D21165F0CDC00F4F785 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B11D1B165F0CDC00F4F785 /* AppViewController.m */; };
 		D7B11D22165F0CDC00F4F785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B11D1C165F0CDC00F4F785 /* InfoPlist.strings */; };
@@ -263,6 +269,9 @@
 		18C6605D1663C258002A027E /* DriverMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverMainViewController.h; sourceTree = "<group>"; };
 		18C6605E1663C258002A027E /* DriverMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverMainViewController.m; sourceTree = "<group>"; };
 		18C6605F1663C258002A027E /* DriverMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DriverMainViewController.xib; sourceTree = "<group>"; };
+		2CC5AA561664A71600E5D287 /* btn_callclient_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_callclient_img.png; sourceTree = "<group>"; };
+		2CC5AA571664A71600E5D287 /* btn_cancel_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_cancel_img.png; sourceTree = "<group>"; };
+		2CC5AA581664A71600E5D287 /* btn_notify_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_notify_img.png; sourceTree = "<group>"; };
 		D7B11D18165F0CDC00F4F785 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7B11D19165F0CDC00F4F785 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D7B11D1A165F0CDC00F4F785 /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
@@ -641,6 +650,9 @@
 		D7D606EB1660FC9D00B553F3 /* 02_IMAGES */ = {
 			isa = PBXGroup;
 			children = (
+				2CC5AA561664A71600E5D287 /* btn_callclient_img.png */,
+				2CC5AA571664A71600E5D287 /* btn_cancel_img.png */,
+				2CC5AA581664A71600E5D287 /* btn_notify_img.png */,
 				189A98D51663C69A00C83147 /* btn_detail_img.png */,
 				189A98D61663C69A00C83147 /* btn_findLocation.png */,
 				189A98D71663C69A00C83147 /* img_empty_star.png */,
@@ -746,6 +758,9 @@
 				189A98E41663C69A00C83147 /* img_location.png in Resources */,
 				189A98E61663C69A00C83147 /* img_time_bar.png in Resources */,
 				189A98E81663C69A00C83147 /* img_title.png in Resources */,
+				2CC5AA591664A71600E5D287 /* btn_callclient_img.png in Resources */,
+				2CC5AA5B1664A71600E5D287 /* btn_cancel_img.png in Resources */,
+				2CC5AA5D1664A71600E5D287 /* btn_notify_img.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,6 +786,9 @@
 				189A98E51663C69A00C83147 /* img_location.png in Resources */,
 				189A98E71663C69A00C83147 /* img_time_bar.png in Resources */,
 				189A98E91663C69A00C83147 /* img_title.png in Resources */,
+				2CC5AA5A1664A71600E5D287 /* btn_callclient_img.png in Resources */,
+				2CC5AA5C1664A71600E5D287 /* btn_cancel_img.png in Resources */,
+				2CC5AA5E1664A71600E5D287 /* btn_notify_img.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -942,6 +960,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = aigo/01_SOURCE/01_MAIN/01_APP/AIGO.pch;
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = __DEBUG_DRIVER__;
 				INFOPLIST_FILE = aigo/01_SOURCE/01_MAIN/01_APP/AIGO_DRIVER.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -959,6 +978,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = aigo/01_SOURCE/01_MAIN/01_APP/AIGO.pch;
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = __RELEASE_DRIVER__;
 				INFOPLIST_FILE = aigo/01_SOURCE/01_MAIN/01_APP/AIGO_DRIVER.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";

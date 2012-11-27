@@ -28,8 +28,10 @@
 //        self.window.rootViewController = navController;
 //    }
     
+#ifdef __DEBUG_DRIVER__
     DriverMainViewController *driverViewController = [[DriverMainViewController alloc] init];
     self.window.rootViewController = driverViewController;
+#endif
     
     return YES;
 }
