@@ -27,10 +27,21 @@
 
 #ifdef __DEBUG__DEV__R2__
 #define STRING_REQUEST_ROOT                                                 @"http://dev.visikard.vn:6868/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://192.168.2.96:8080/vk4"
 #endif
 #ifdef __RELEASE__DEV__R2__
 #define STRING_REQUEST_ROOT                                                 @"http://dev.visikard.vn:6868/vk4"
 #endif
+
+//#define STRING_REQUEST_ROOT                                                 @"http://dev.visikard.com:6868/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://dev1.visikard.com:6868/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://192.168.2.83:8080/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://khanh-pc:8080/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://192.168.2.150:8080/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://lcalserver.visikard.vn/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://staging1.visikard.com:6868/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://216.119.157.11:6868/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://216.119.158.150:6868/vk4"
 
 #ifndef STRING_REQUEST_ROOT
 #define STRING_REQUEST_ROOT                                                 @"http://108.166.81.13:6868/vk4"
@@ -53,17 +64,19 @@
 
 // USER
 #define STRING_REQUEST_URL_USER_LOGIN                                   [NSString stringWithFormat:@"%@/accounts/login", STRING_REQUEST_ROOT]
+#define STRING_REQUEST_URL_USER_LOGIN_USERNAME_EMAIL                    [NSString stringWithFormat:@"%@/accounts/login/email/username", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_USER_LOGOUT                                  [NSString stringWithFormat:@"%@/session/delete", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_USER_LOGIN_WITH_FB_TW						[NSString stringWithFormat:@"%@/accounts/other/app/add", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_USER_UPDATE_LOCATION                         [NSString stringWithFormat:@"%@/session/lacation/setting", STRING_REQUEST_ROOT]
-#define STRING_REQUEST_URL_USER_UPDATE_LOCATION_AND_GPS                 [NSString stringWithFormat:@"%@/session/set/gps/lacation/add", STRING_REQUEST_ROOT] 
+#define STRING_REQUEST_URL_USER_UPDATE_LOCATION_AND_GPS                 [NSString stringWithFormat:@"%@/session/set/gps/lacation/add", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_USER_GET_PROFILE                             [NSString stringWithFormat:@"%@/accounts/profile/default", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_USER_UPDATE_ONLINE_STATUS                    [NSString stringWithFormat:@"%@/session/update", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_USER_CHANGE_PASSWORD                         [NSString stringWithFormat:@"%@/accounts/change/password", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_USER_FULL_NAME                               [NSString stringWithFormat:@"%@/accounts/settings", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_USER_RECOVERY_PASSWORD                       [NSString stringWithFormat:@"%@/accounts/forget/password/user", STRING_REQUEST_ROOT]
+#define STRING_REQUEST_URL_REGISTRY_ACCOUNT                             [NSString stringWithFormat: @"%@/accounts/profile/add", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_USER_CHECK_INVATION_CODE                     [NSString stringWithFormat:@"%@/accounts/invitation/code/check/exist", STRING_REQUEST_ROOT]
-#define STRING_REQUEST_URL_USER_FORGET_PASSWORD                         [NSString stringWithFormat:@"%@/accounts/recovery/forget/password", STRING_REQUEST_ROOT] 
+#define STRING_REQUEST_URL_USER_FORGET_PASSWORD                         [NSString stringWithFormat:@"%@/accounts/recovery/forget/password", STRING_REQUEST_ROOT]
 // KARDS
 #define STRING_REQUEST_URL_KARDS_GET_ALL                                [NSString stringWithFormat:@"%@/konnect/NotAccepted/Accepted/user", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_KARD_GET_ALL_FOR_SETTING                     [NSString stringWithFormat:@"%@/konnect/user/accepted",STRING_REQUEST_ROOT]
@@ -73,12 +86,15 @@
 #define STRING_REQUEST_URL_KARDS_CHANGE_PROFILE                         [NSString stringWithFormat:@"%@/profile/change/kard", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_KARDS_CHECK_IN                               [NSString stringWithFormat:@"%@/backkard/checkin", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_KARDS_CHECK_OUT                              [NSString stringWithFormat:@"%@/backkard/checkout", STRING_REQUEST_ROOT]
-#define STRING_REQUEST_URL_KARD_SHARE_KARD_VIA_KONNECT                  [NSString stringWithFormat:@"%@/konnect/share/kard/add", STRING_REQUEST_ROOT]
+#define STRING_REQUEST_URL_KARD_SHARE_ME_KARDS                          [NSString stringWithFormat:@"%@/konnect/share/kard/add", STRING_REQUEST_ROOT]
+#define STRING_REQUEST_URL_KARD_SHARE_MY_KARDS                          [NSString stringWithFormat:@"%@/konnect/share/friend/kard/add", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_KARD_REPLACE_ALL_KONNECT                     [NSString stringWithFormat:@"%@/kards/relation/from/to", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_KARD_REPLACE_SIMPLE_KONNECT                  [NSString stringWithFormat:@"%@/kards/relation/kard/konnect", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_KARD_SEARCH_MY_KARDS                         [NSString stringWithFormat:@"%@/konnect/user/accepted/search/kard", STRING_REQUEST_ROOT]
-#define STRING_REQUEST_URL_ME_KARDS_TRADED_ONE_KARD                     [NSString stringWithFormat:@"%@/konnect/accepted/me", STRING_REQUEST_ROOT] 
+#define STRING_REQUEST_URL_ME_KARDS_TRADED_ONE_KARD                     [NSString stringWithFormat:@"%@/konnect/accepted/me", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_KARDS_GET_SHARE_KARD                         [NSString stringWithFormat:@"%@/konnect/NotAccepted/Accepted/share/kard", STRING_REQUEST_ROOT]
+#define STRING_REQUEST_URL_KARDS_SHARE_KARD_VIA_EMAIL                   [NSString stringWithFormat:@"%@/konnect/kard/share/email", STRING_REQUEST_ROOT]
+
 
 // KONNECT
 #define STRING_REQUEST_URL_KONNECT_GET_ALL                              [NSString stringWithFormat:@"%@/session/all", STRING_REQUEST_ROOT]
@@ -142,7 +158,7 @@
 #define STRING_REQUEST_URL_DEAL_GET_MESSAGE                             [NSString stringWithFormat:@"%@/backkard/message", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_DEAL_GET_MESSAGE                             [NSString stringWithFormat:@"%@/backkard/message", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_DEAL_PASS                                    [NSString stringWithFormat:@"%@/deals/adddealtootheruser", STRING_REQUEST_ROOT]
-#define STRING_REQUEST_URL_DEAL_GET_INFO_SETTING                        [NSString stringWithFormat:@"%@/deals/settingdeal/getmysettingspriority", STRING_REQUEST_ROOT] 
+#define STRING_REQUEST_URL_DEAL_GET_INFO_SETTING                        [NSString stringWithFormat:@"%@/deals/settingdeal/getmysettingspriority", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_DEAL_SET_PRIORITY_SETTING                    [NSString stringWithFormat:@"%@/deals/settingdeal/priority", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_DEAL_GET_CITIES_DISTANCE                     [NSString stringWithFormat:@"%@/deals/getallcities/sortbydistance", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_DEAL_SET_CITY                                [NSString stringWithFormat:@"%@/deals/settingdeal/city", STRING_REQUEST_ROOT]
@@ -185,7 +201,7 @@
 #define STRING_REQUEST_URL_UN_PRIORITISE_KKARD                          [NSString stringWithFormat:@"%@/news/unprioritize/kard", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_HIDE_KARD                                    [NSString stringWithFormat:@"%@/news/hide/kard", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_UN_HIDE_KARD                                 [NSString stringWithFormat:@"%@/news/unhide/kard", STRING_REQUEST_ROOT]
-#define STRING_REQUEST_FEEDS_URL_FEEDS_CHECK_UNREAD                     [NSString stringWithFormat:@"%@/news/set/read/this", STRING_REQUEST_ROOT]                  
+#define STRING_REQUEST_FEEDS_URL_FEEDS_CHECK_UNREAD                     [NSString stringWithFormat:@"%@/news/set/read/this", STRING_REQUEST_ROOT]
 
 // BACK OF KARD
 #define STRING_REQUEST_URL_BACKARD_PRIVATE_MESSAGE                      [NSString stringWithFormat:@"%@/news/message/kard", STRING_REQUEST_ROOT]
@@ -213,6 +229,8 @@
 #define STRING_REQUEST_URL_BACKARD_VIEW_MEDIA                           [NSString stringWithFormat:@"%@/backkard/mediabyid", STRING_REQUEST_ROOT]
 #define STRING_REQUEST_URL_BACKARD_DELETE_MEDIA                         [NSString stringWithFormat:@"%@/backkard/media/delete", STRING_REQUEST_ROOT]
 
+#define STRING_REQUEST_URL_BACKARD_UPDATE_PROFILE_INFO                  [NSString stringWithFormat:@"%@/kard/add/info/backkard", STRING_REQUEST_ROOT]
+#define STRING_REQUEST_URL_BACKARD_GET_PROFILE_INFO                     [NSString stringWithFormat:@"%@/kard/get/info/backkard", STRING_REQUEST_ROOT]
 
 
 // DRUPAL
@@ -237,12 +255,14 @@
 #define STRING_REQUEST_KEY_GENDER										@"gender"
 #define STRING_REQUEST_KEY_ABOUT										@"about"
 #define STRING_REQUEST_KEY_FK_KARD										@"fkKard"
+#define STRING_REQUEST_KEY_USER_NAME_EMAIL                              @"usernameemail"
+#define STRING_REQUEST_KEY_AGE                                          @"age"
 
 // KONNECT
 #define STRING_REQUEST_KEY_FK_FRIEND_KARD                               @"fkFriendKard"
 #define STRING_REQUEST_KEY_LIST_KONNECT                                 @"listkonnect"
 
-// KARD BUILDER 
+// KARD BUILDER
 #define STRING_REQUEST_KEY_CONTENT_TYPE_IMAGE_JPEG                      @"image/jpeg"
 #define STRING_REQUEST_KEY_ID_NEW_KARD                                  @"idNewKard"
 #define STRING_REQUEST_KEY_FILE                                         @"file"
@@ -324,7 +344,7 @@
 #define STRING_RESPONSE_KEY_IS_MY_DEFAULT                               @"isMyDefault"
 #define STRING_RESPONSE_KEY_KONNECT_VISIBILITY                          @"konnectVisibility"
 #define STRING_RESPONSE_KEY_POST_BACK_KARD                              @"postBackKard"
-#define STRING_RESPONSE_KEY_IS_DECK                                     @"isDeck" 
+#define STRING_RESPONSE_KEY_IS_DECK                                     @"isDeck"
 #define STRING_RESPONSE_KEY_NUMBER_FEED                                 @"numberfeed"
 #define STRING_RESPONSE_KEY_FEED_UNREAD                                 @"feedUnread"
 #define STRING_RESPONSE_KEY_FEED_UNREAD_ME_DECK                         @"feedUnreadMedeck"
@@ -369,7 +389,7 @@
 #define STRING_RESPONSE_KEY_AGE_SHOW                                    @"ageShow"
 #define STRING_RESPONSE_KEY_AGE_ALL                                     @"ageAll"
 #define STRING_RESPONSE_KEY_INCOME                                      @"inCome"
-#define STRING_RESPONSE_KEY_INCOME_0_25                                 @"inCome025" 
+#define STRING_RESPONSE_KEY_INCOME_0_25                                 @"inCome025"
 #define STRING_RESPONSE_KEY_INCOME_26_50                                @"inCome2650"
 #define STRING_RESPONSE_KEY_INCOME_51_100                               @"inCome51100"
 #define STRING_RESPONSE_KEY_INCOME_101                                  @"inCome101"
@@ -377,7 +397,7 @@
 #define STRING_RESPONSE_KEY_INCOME_ALL                                  @"inComeAll"
 #define STRING_RESPONSE_KEY_EDUCATION                                   @"education"
 #define STRING_RESPONSE_KEY_EDUCATION_ADV                               @"educationAdv"
-#define STRING_RESPONSE_KEY_EDUCATION_COLL                              @"educationColl" 
+#define STRING_RESPONSE_KEY_EDUCATION_COLL                              @"educationColl"
 #define STRING_RESPONSE_KEY_EDUCATION_HIGHT                             @"educationHight"
 #define STRING_RESPONSE_KEY_EDUCATION_SHOW                              @"educationShow"
 #define STRING_RESPONSE_KEY_EDUCATION_SOME                              @"educationSome"
@@ -386,14 +406,14 @@
 #define STRING_RESPONSE_KEY_RE_BREAKUP                                  @"reBreakup"
 #define STRING_RESPONSE_KEY_RE_ENGAGED                                  @"reEngaged"
 #define STRING_RESPONSE_KEY_RE_MARRIED                                  @"reMarried"
-#define STRING_RESPONSE_KEY_RE_RE_ENGAGED                               @"reReEngaged" 
+#define STRING_RESPONSE_KEY_RE_RE_ENGAGED                               @"reReEngaged"
 #define STRING_RESPONSE_KEY_RE_RE_MARRIED                               @"reReMarried"
 #define STRING_RESPONSE_KEY_RE_SHOW                                     @"reShow"
 #define STRING_RESPONSE_KEY_RE_INA                                      @"reIna"
 #define STRING_RESPONSE_KEY_RE_SING                                     @"reSingle"
 #define STRING_RESPONSE_KEY_PARENTAL                                    @"parental"
 #define STRING_RESPONSE_KEY_PARENTAL_EXP                                @"parentalExp"
-#define STRING_RESPONSE_KEY_PARENTAL_GAVE_BIRTH                         @"parentalGaveBirth" 
+#define STRING_RESPONSE_KEY_PARENTAL_GAVE_BIRTH                         @"parentalGaveBirth"
 #define STRING_RESPONSE_KEY_PARENTAL_NO_KID                             @"parentalNoKid"
 #define STRING_RESPONSE_KEY_PARENTAL_PARANT                             @"parentalParant"
 #define STRING_RESPONSE_KEY_PARENTAL_SHOW                               @"parentalShow"
@@ -427,37 +447,37 @@
 #define STRING_RESPONSE_MEDIA_DESCRIPTION                               @"mediaDesc"
 #define STRING_RESPONSE_KEY_F_NAME_IS_CHECK                             @"fNameisCheck"
 #define STRING_RESPONSE_KEY_L_NAME_IS_CHECK                             @"lNameisCheck"
-#define STRING_RESPONSE_KEY_POSITION_IS_CHECK                           @"positionisCheck" 
-#define STRING_RESPONSE_KEY_COMPANY_IS_CHECK                            @"companyisCheck"   
-#define STRING_RESPONSE_KEY_PHONE_IS_CHECK                              @"phoneisCheck" 
-#define STRING_RESPONSE_KEY_PHONE2_IS_CHECK                             @"phone2isCheck"    
-#define STRING_RESPONSE_KEY_FAX_IS_CHECK                                @"faxisCheck"   
-#define STRING_RESPONSE_KEY_EMAIL_IS_CHECK                              @"emailisCheck" 
-#define STRING_RESPONSE_KEY_ADDRESS_IS_CHECK                            @"addressisCheck"   
-#define STRING_RESPONSE_KEY_CITY_IS_CHECK                               @"cityisCheck"  
-#define STRING_RESPONSE_KEY_STATE_IS_CHECK                              @"stateisCheck" 
-#define STRING_RESPONSE_KEY_COUNTRY_IS_CHECK                            @"countryisCheck"   
-#define STRING_RESPONSE_KEY_ZIP_IS_CHECK                                @"zipisCheck"   
-#define STRING_RESPONSE_KEY_WEBSITE_IS_CHECK                            @"websiteisCheck"   
-#define STRING_RESPONSE_KEY_DETAIL_IS_CHECK                             @"detailisCheck"    
-#define STRING_RESPONSE_KEY_GENDER_IS_CHECK                             @"genderisCheck"    
-#define STRING_RESPONSE_KEY_AGE_IS_CHECK                                @"ageisCheck"   
-#define STRING_RESPONSE_KEY_IN_COME_IS_CHECK                            @"inComeisCheck"    
-#define STRING_RESPONSE_KEY_EDUCATION_IS_CHECK                          @"educationisCheck" 
-#define STRING_RESPONSE_KEY_RELATIONSHIP_IS_CHECK                       @"relationshipisCheck"  
-#define STRING_RESPONSE_KEY_PARENTAL_IS_CHECK                           @"parentalisCheck" 
+#define STRING_RESPONSE_KEY_POSITION_IS_CHECK                           @"positionisCheck"
+#define STRING_RESPONSE_KEY_COMPANY_IS_CHECK                            @"companyisCheck"
+#define STRING_RESPONSE_KEY_PHONE_IS_CHECK                              @"phoneisCheck"
+#define STRING_RESPONSE_KEY_PHONE2_IS_CHECK                             @"phone2isCheck"
+#define STRING_RESPONSE_KEY_FAX_IS_CHECK                                @"faxisCheck"
+#define STRING_RESPONSE_KEY_EMAIL_IS_CHECK                              @"emailisCheck"
+#define STRING_RESPONSE_KEY_ADDRESS_IS_CHECK                            @"addressisCheck"
+#define STRING_RESPONSE_KEY_CITY_IS_CHECK                               @"cityisCheck"
+#define STRING_RESPONSE_KEY_STATE_IS_CHECK                              @"stateisCheck"
+#define STRING_RESPONSE_KEY_COUNTRY_IS_CHECK                            @"countryisCheck"
+#define STRING_RESPONSE_KEY_ZIP_IS_CHECK                                @"zipisCheck"
+#define STRING_RESPONSE_KEY_WEBSITE_IS_CHECK                            @"websiteisCheck"
+#define STRING_RESPONSE_KEY_DETAIL_IS_CHECK                             @"detailisCheck"
+#define STRING_RESPONSE_KEY_GENDER_IS_CHECK                             @"genderisCheck"
+#define STRING_RESPONSE_KEY_AGE_IS_CHECK                                @"ageisCheck"
+#define STRING_RESPONSE_KEY_IN_COME_IS_CHECK                            @"inComeisCheck"
+#define STRING_RESPONSE_KEY_EDUCATION_IS_CHECK                          @"educationisCheck"
+#define STRING_RESPONSE_KEY_RELATIONSHIP_IS_CHECK                       @"relationshipisCheck"
+#define STRING_RESPONSE_KEY_PARENTAL_IS_CHECK                           @"parentalisCheck"
 #define STRING_RESPONSE_KEY_KEY_WORK_IS_CHECK                           @"keyWordischeck"
 #define STRING_RESPONSE_KEY_ALIGNMENT                                   @"alignment"
 #define STRING_RESPONSE_KEY_TEMPLATE_ID                                 @"idVisikardTemplates"
 
-#define STRING_RESPONSE_KEY_LAYER1                                      @"layer1"    
-#define STRING_RESPONSE_KEY_LAYER1X                                     @"layer1X"   
-#define STRING_RESPONSE_KEY_LAYER1Y                                     @"layer1Y"    
-#define STRING_RESPONSE_KEY_LAYER2                                      @"layer2" 
-#define STRING_RESPONSE_KEY_LAYER2X                                     @"layer2X"  
-#define STRING_RESPONSE_KEY_LAYER2Y                                     @"layer2Y" 
+#define STRING_RESPONSE_KEY_LAYER1                                      @"layer1"
+#define STRING_RESPONSE_KEY_LAYER1X                                     @"layer1X"
+#define STRING_RESPONSE_KEY_LAYER1Y                                     @"layer1Y"
+#define STRING_RESPONSE_KEY_LAYER2                                      @"layer2"
+#define STRING_RESPONSE_KEY_LAYER2X                                     @"layer2X"
+#define STRING_RESPONSE_KEY_LAYER2Y                                     @"layer2Y"
 #define STRING_RESPONSE_KEY_LAYER2H                                     @"layer2H"
-#define STRING_RESPONSE_KEY_LAYER2W                                     @"layer2W" 
+#define STRING_RESPONSE_KEY_LAYER2W                                     @"layer2W"
 
 // COUNTRY
 #define STRING_RESPONSE_KEY_ID                                          @"id"
@@ -532,19 +552,21 @@
 #define STRING_RESPONSE_KEY_NUMBER_KARD_TRADED                          @"numberKardTraded"
 
 // FB
-#define STRING_RESPONSE_KEY_FB_NAME                                     @"name" 
-#define STRING_RESPONSE_KEY_FB_ID                                       @"id" 
+#define STRING_RESPONSE_KEY_FB_NAME                                     @"name"
+#define STRING_RESPONSE_KEY_FB_ID                                       @"id"
 #define STRING_RESPONSE_KEY_FB_PICTURE                                  @"picture"
 #define STRING_RESPONSE_KEY_FB_F_NAME									@"first_name"
 #define STRING_RESPONSE_KEY_FB_L_NAME									@"last_name"
 #define	STRING_RESPONSE_KEY_FB_EMAIL									@"email"
 #define	STRING_RESPONSE_KEY_FB_GENDER									@"gender"
 #define	STRING_RESPONSE_KEY_FB_ABOUT									@"about"
+#define	STRING_RESPONSE_KEY_FB_BIRTHDAY									@"birthday"
+#define	STRING_RESPONSE_KEY_FB_UPDATETIME								@"updated_time"
 
 // TW
-#define STRING_RESPONSE_KEY_TW_NAME                                     @"name" 
+#define STRING_RESPONSE_KEY_TW_NAME                                     @"name"
 #define STRING_RESPONSE_KEY_TW_GENDER                                   @"gender"
-#define STRING_RESPONSE_KEY_TW_ABOUT                                    @"about" 
+#define STRING_RESPONSE_KEY_TW_ABOUT                                    @"about"
 
 #define INT_RESPONSE_CODE_FINISH                                        200
 #define INT_RESPONSE_CODE_CONNECTION_ERROR                              1000
@@ -552,8 +574,10 @@
 #define STRING_RESPONSE_CODE_FAILER                                     @"FAILER"
 #define STRING_RESPONSE_CODE_EXIST                                      @"EXIST"
 #define STRING_RESPONSE_CODE_ACCEPTED                                   @"ACCEPTED"
+#define STRING_RESPONSE_CODE_NOTALLOW                                   @"NOTALLOW"
 
 #define RELOAD_FEEDS                                                    @"reload"
+#define MAIL_NOT_SEND                                                   @"Email not send."
 
 #define STRING_ALERT_CONNECTION_ERROR_TITLE                             @"Offline"
 #define STRING_ALERT_CONNECTION_ERROR									@"Sorry, this function is not available in offline mode.  Please connect to the internet to perform this function"
@@ -561,6 +585,13 @@
 #define STRING_ALERT_SERVER_ERROR                                       @"We are sorry, the VisiKard server is temporarily offline for an upgrade...We will be back within the next few minutes. Please try again."
 
 #define STRING_ALERT_DATA_IS_NIL										@"DATA is nil"
+
+// Back Kard Profile Info
+#define BK_PROFILE_KARD_NAME                                            @"kardName"
+#define BK_PROFILE_KARD_PHONE                                           @"phone"
+#define BK_PROFILE_KARD_EMAIL                                           @"email"
+#define BK_PROFILE_KARD_WEBSITE                                         @"website"
+#define BK_PROFILE_KARD_ADDRESS                                         @"address"
 
 
 #define kSqliteFileName @"VisiKard"
@@ -594,21 +625,21 @@
 - (void)requestWithType:(ENUM_API_REQUEST_TYPE)type andURL:(NSString *)url andDelegate:(id)delegate;
 - (void)requestWithType:(ENUM_API_REQUEST_TYPE)type andRootURL:(NSString *)rootURL andPostMethodKind:(BOOL)methodKind andParams:(NSMutableDictionary *)params andDelegate:(id)delegate;
 - (void)requestWithType:(ENUM_API_REQUEST_TYPE)type andRootURL:(NSString *)rootURL andPostMethodKind:(BOOL)methodKind andParams:(NSMutableDictionary *)params andImageData:(NSData *)data andDelegate:(id)delegate;
-- (void)requestMultiPartRequestType:(ENUM_API_REQUEST_TYPE)type andRootURL:(NSString *)rootURL 
-      andPostMethodKind:(BOOL)methodKind 
-              andParams:(NSArray *)params 
-                andKeys:(NSArray*)keysArr
-            andDelegate:(id)delegate;
+- (void)requestMultiPartRequestType:(ENUM_API_REQUEST_TYPE)type andRootURL:(NSString *)rootURL
+                  andPostMethodKind:(BOOL)methodKind
+                          andParams:(NSArray *)params
+                            andKeys:(NSArray*)keysArr
+                        andDelegate:(id)delegate;
 
-- (void)videoRequestMultiPartRequestType:(ENUM_API_REQUEST_TYPE)type andRootURL:(NSString *)rootURL 
-                       andPostMethodKind:(BOOL)methodKind 
-                               andParams:(NSArray *)params 
+- (void)videoRequestMultiPartRequestType:(ENUM_API_REQUEST_TYPE)type andRootURL:(NSString *)rootURL
+                       andPostMethodKind:(BOOL)methodKind
+                               andParams:(NSArray *)params
                                  andKeys:(NSArray*)keysArr
                              andDelegate:(id)delegate;
 
-- (void)requestSimpleRequestType:(ENUM_API_REQUEST_TYPE)type andRootURL:(NSString *)rootURL 
-               andPostMethodKind:(BOOL)methodKind 
-                       andParams:(NSArray *)params 
+- (void)requestSimpleRequestType:(ENUM_API_REQUEST_TYPE)type andRootURL:(NSString *)rootURL
+               andPostMethodKind:(BOOL)methodKind
+                       andParams:(NSArray *)params
                          andKeys:(NSArray*)keysArr
                      andDelegate:(id)delegate;
 
