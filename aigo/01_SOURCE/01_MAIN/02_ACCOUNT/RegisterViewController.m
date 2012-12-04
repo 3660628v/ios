@@ -359,13 +359,17 @@ typedef enum
 }
 
 - (IBAction)saveTouchUpInside:(UIButton *)sender {
-    if ([self checkForErrorValidation:ENUM_FIELD_CHECK_FIELD_EMPTY]) {
-        if ([self checkForErrorValidation:ENUM_FIELD_CHECK_EMAIL]) {
-            if ([self checkForErrorValidation:ENUM_FIELD_CHECK_PASSWORK]) {
-                [self requestDataWithType:ENUM_API_REQUEST_TYPE_USER_REGISTER];
-            }
-        }
-    }
+    // MinhPB 2012/12/04
+//    if ([self checkForErrorValidation:ENUM_FIELD_CHECK_FIELD_EMPTY]) {
+//        if ([self checkForErrorValidation:ENUM_FIELD_CHECK_EMAIL]) {
+//            if ([self checkForErrorValidation:ENUM_FIELD_CHECK_PASSWORK]) {
+//                [self requestDataWithType:ENUM_API_REQUEST_TYPE_USER_REGISTER];
+//            }
+//        }
+//    }
+    
+    // MinhPB 2012/12/04
+    [[AppViewController Shared] changeToHomeFromWelcomeScreen:YES];
 }
 
 - (IBAction)facebookBtnTouchUpInside:(UIButton *)sender {

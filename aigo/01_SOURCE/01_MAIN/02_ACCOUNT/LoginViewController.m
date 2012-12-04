@@ -194,6 +194,7 @@
 //        [self.scrollView scrollRectToVisible:CGRectMake(0, 0, 320, 460) animated:YES];
 //    }
     
+    // MinhPB 2012/12/04
     [[AppViewController Shared] changeToHomeFromWelcomeScreen:YES];
 }
 

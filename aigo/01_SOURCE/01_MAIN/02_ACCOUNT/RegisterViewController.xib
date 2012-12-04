@@ -120,7 +120,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<object class="NSCustomResource" key="IBUIImage" id="783115391">
+								<object class="NSCustomResource" key="IBUIImage" id="691880773">
 									<string key="NSClassName">NSImage</string>
 									<string key="NSResourceName">wc_field.png</string>
 								</object>
@@ -137,7 +137,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">wc_user_id.png</string>
+									<string key="NSResourceName">wc_email.png</string>
 								</object>
 							</object>
 							<object class="IBUITextField" id="244387494">
@@ -180,7 +180,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<reference key="IBUIImage" ref="783115391"/>
+								<reference key="IBUIImage" ref="691880773"/>
 							</object>
 							<object class="IBUIImageView" id="649008377">
 								<reference key="NSNextResponder" ref="989401682"/>
@@ -234,7 +234,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<reference key="IBUIImage" ref="783115391"/>
+								<reference key="IBUIImage" ref="691880773"/>
 							</object>
 							<object class="IBUIImageView" id="913725414">
 								<reference key="NSNextResponder" ref="989401682"/>
@@ -319,7 +319,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<reference key="IBUIImage" ref="783115391"/>
+								<reference key="IBUIImage" ref="691880773"/>
 							</object>
 							<object class="IBUIImageView" id="545365974">
 								<reference key="NSNextResponder" ref="989401682"/>
@@ -395,7 +395,7 @@
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="IBUIUserInteractionEnabled">NO</bool>
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-										<reference key="IBUIImage" ref="783115391"/>
+										<reference key="IBUIImage" ref="691880773"/>
 									</object>
 									<object class="IBUIImageView" id="601649976">
 										<reference key="NSNextResponder" ref="681573439"/>
@@ -855,7 +855,7 @@
 										<reference key="IBUIGestureRecognizers" ref="0"/>
 										<bool key="IBUIUserInteractionEnabled">NO</bool>
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-										<reference key="IBUIImage" ref="783115391"/>
+										<reference key="IBUIImage" ref="691880773"/>
 									</object>
 									<object class="IBUIImageView" id="660135501">
 										<reference key="NSNextResponder" ref="895189092"/>
@@ -2332,13 +2332,13 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 			<string key="wc_bg_btn_on.png">{179, 68}</string>
 			<string key="wc_bg_header_bar.png">{320, 40}</string>
 			<string key="wc_bg_image.png">{640, 960}</string>
+			<string key="wc_email.png">{30, 21}</string>
 			<string key="wc_faceBook.png">{32, 32}</string>
 			<string key="wc_field.png">{320, 34}</string>
 			<string key="wc_gender.png">{29, 28}</string>
 			<string key="wc_password.png">{20, 28}</string>
 			<string key="wc_register.png">{98, 35}</string>
 			<string key="wc_twiter.png">{31, 31}</string>
-			<string key="wc_user_id.png">{29, 29}</string>
 			<string key="welcome_lineAge@2x.png">{640, 3}</string>
 			<string key="welcome_pointAge-select.png">{11, 10}</string>
 			<string key="welcome_pointAge.png">{11, 10}</string>
