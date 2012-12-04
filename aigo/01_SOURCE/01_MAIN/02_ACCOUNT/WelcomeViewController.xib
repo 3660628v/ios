@@ -141,7 +141,7 @@
 						<string key="NSFrame">{{180, 240}, {90, 34}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="993449750"/>
+						<reference key="NSNextKeyView" ref="802728119"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -214,10 +214,10 @@
 							<string key="NSResourceName">wc_aigo_logo.png</string>
 						</object>
 					</object>
-					<object class="IBUIButton" id="749114783">
+					<object class="IBUIButton" id="698221301">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{113, 275}, {167, 30}}</string>
+						<string key="NSFrame">{{105, 275}, {167, 30}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -239,10 +239,10 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="993449750">
+					<object class="IBUIImageView" id="802728119">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{133, 300}, {120, 2}}</string>
+						<string key="NSFrame">{{115, 300}, {140, 2}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -294,7 +294,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">touchUpInsideForgotPass:</string>
-						<reference key="source" ref="749114783"/>
+						<reference key="source" ref="698221301"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -330,8 +330,8 @@
 							<reference ref="203095338"/>
 							<reference ref="1006905086"/>
 							<reference ref="787678338"/>
-							<reference ref="993449750"/>
-							<reference ref="749114783"/>
+							<reference ref="802728119"/>
+							<reference ref="698221301"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -387,12 +387,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">428</int>
-						<reference key="object" ref="993449750"/>
+						<reference key="object" ref="802728119"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">429</int>
-						<reference key="object" ref="749114783"/>
+						<reference key="object" ref="698221301"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</array>
