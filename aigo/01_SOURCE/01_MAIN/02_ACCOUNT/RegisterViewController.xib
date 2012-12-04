@@ -120,7 +120,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<object class="NSCustomResource" key="IBUIImage" id="666563178">
+								<object class="NSCustomResource" key="IBUIImage" id="783115391">
 									<string key="NSClassName">NSImage</string>
 									<string key="NSResourceName">wc_field.png</string>
 								</object>
@@ -180,7 +180,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<reference key="IBUIImage" ref="666563178"/>
+								<reference key="IBUIImage" ref="783115391"/>
 							</object>
 							<object class="IBUIImageView" id="649008377">
 								<reference key="NSNextResponder" ref="989401682"/>
@@ -234,7 +234,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<reference key="IBUIImage" ref="666563178"/>
+								<reference key="IBUIImage" ref="783115391"/>
 							</object>
 							<object class="IBUIImageView" id="913725414">
 								<reference key="NSNextResponder" ref="989401682"/>
@@ -319,7 +319,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<reference key="IBUIImage" ref="666563178"/>
+								<reference key="IBUIImage" ref="783115391"/>
 							</object>
 							<object class="IBUIImageView" id="545365974">
 								<reference key="NSNextResponder" ref="989401682"/>
@@ -395,7 +395,7 @@
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="IBUIUserInteractionEnabled">NO</bool>
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-										<reference key="IBUIImage" ref="666563178"/>
+										<reference key="IBUIImage" ref="783115391"/>
 									</object>
 									<object class="IBUIImageView" id="601649976">
 										<reference key="NSNextResponder" ref="681573439"/>
@@ -855,7 +855,7 @@
 										<reference key="IBUIGestureRecognizers" ref="0"/>
 										<bool key="IBUIUserInteractionEnabled">NO</bool>
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-										<reference key="IBUIImage" ref="666563178"/>
+										<reference key="IBUIImage" ref="783115391"/>
 									</object>
 									<object class="IBUIImageView" id="660135501">
 										<reference key="NSNextResponder" ref="895189092"/>
@@ -1164,6 +1164,7 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 						<string key="NSFrame">{{122, 10}, {72, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -1196,7 +1197,7 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
 			<object class="IBUIView" id="250840442">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="IBUIImageView" id="389987003">
@@ -1204,6 +1205,7 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{0, 35}, {320, 425}}</string>
 						<reference key="NSSuperview" ref="250840442"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="601819063"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor" id="608240395">
@@ -1222,6 +1224,7 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrameSize">{76, 36}</string>
 						<reference key="NSSuperview" ref="250840442"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="389987003"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -1242,6 +1245,7 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 						<int key="NSvFlags">311</int>
 						<string key="NSFrame">{{0, 35}, {320, 370}}</string>
 						<reference key="NSSuperview" ref="250840442"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="677037511"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="608240395"/>
@@ -1251,9 +1255,11 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 					</object>
 					<object class="IBUIButton" id="677037511">
 						<reference key="NSNextResponder" ref="250840442"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">264</int>
 						<string key="NSFrame">{{111, 413}, {98, 36}}</string>
 						<reference key="NSSuperview" ref="250840442"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<int key="IBUIContentMode">4</int>
@@ -1266,13 +1272,15 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 						<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
 						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">welcome_btn_bg.png</string>
+							<string key="NSResourceName">wc_bg_btn_on.png</string>
 						</object>
 						<reference key="IBUIFontDescription" ref="675244206"/>
 						<reference key="IBUIFont" ref="550840162"/>
 					</object>
 				</array>
 				<string key="NSFrameSize">{320, 460}</string>
+				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="880657685"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<reference key="IBUIBackgroundColor" ref="976940909"/>
@@ -2321,6 +2329,7 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 			<string key="pixel_transparent_white.png">{4, 4}</string>
 			<string key="profile_check.png">{19, 16}</string>
 			<string key="wc_age.png">{27, 28}</string>
+			<string key="wc_bg_btn_on.png">{179, 68}</string>
 			<string key="wc_bg_header_bar.png">{320, 40}</string>
 			<string key="wc_bg_image.png">{640, 960}</string>
 			<string key="wc_faceBook.png">{32, 32}</string>
@@ -2330,7 +2339,6 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 			<string key="wc_register.png">{98, 35}</string>
 			<string key="wc_twiter.png">{31, 31}</string>
 			<string key="wc_user_id.png">{29, 29}</string>
-			<string key="welcome_btn_bg.png">{98, 36}</string>
 			<string key="welcome_lineAge@2x.png">{640, 3}</string>
 			<string key="welcome_pointAge-select.png">{11, 10}</string>
 			<string key="welcome_pointAge.png">{11, 10}</string>

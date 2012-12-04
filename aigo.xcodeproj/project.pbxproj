@@ -485,6 +485,8 @@
 		D7C125EE166DF9070088C8AF /* main_home_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C125EB166DF9070088C8AF /* main_home_back.png */; };
 		D7C125EF166DF9070088C8AF /* main_home_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C125EC166DF9070088C8AF /* main_home_back@2x.png */; };
 		D7C125F0166DF9070088C8AF /* main_home_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C125EC166DF9070088C8AF /* main_home_back@2x.png */; };
+		D7C125F3166E00A60088C8AF /* Bebas Neue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7C125F2166E00A60088C8AF /* Bebas Neue.ttf */; };
+		D7C125F4166E00A60088C8AF /* Bebas Neue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7C125F2166E00A60088C8AF /* Bebas Neue.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -861,6 +863,7 @@
 		D7C1258F166DF8790088C8AF /* wc_user_id@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wc_user_id@2x.png"; sourceTree = "<group>"; };
 		D7C125EB166DF9070088C8AF /* main_home_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_home_back.png; sourceTree = "<group>"; };
 		D7C125EC166DF9070088C8AF /* main_home_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_home_back@2x.png"; sourceTree = "<group>"; };
+		D7C125F2166E00A60088C8AF /* Bebas Neue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bebas Neue.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1473,6 +1476,7 @@
 			children = (
 				D7C122D0166DE7AF0088C8AF /* 01_APPS */,
 				D7C122D4166DE7AF0088C8AF /* 02_IMAGES */,
+				D7C125F1166E00A60088C8AF /* 03_FONTS */,
 			);
 			name = 03_RESOURCES;
 			path = aigo/03_RESOURCES;
@@ -1642,6 +1646,14 @@
 				D7C125EC166DF9070088C8AF /* main_home_back@2x.png */,
 			);
 			path = MAIN;
+			sourceTree = "<group>";
+		};
+		D7C125F1166E00A60088C8AF /* 03_FONTS */ = {
+			isa = PBXGroup;
+			children = (
+				D7C125F2166E00A60088C8AF /* Bebas Neue.ttf */,
+			);
+			path = 03_FONTS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1843,6 +1855,7 @@
 				D7C125E8166DF87B0088C8AF /* wc_user_id@2x.png in Resources */,
 				D7C125ED166DF9070088C8AF /* main_home_back.png in Resources */,
 				D7C125EF166DF9070088C8AF /* main_home_back@2x.png in Resources */,
+				D7C125F3166E00A60088C8AF /* Bebas Neue.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1980,6 +1993,7 @@
 				D7C125E9166DF87B0088C8AF /* wc_user_id@2x.png in Resources */,
 				D7C125EE166DF9070088C8AF /* main_home_back.png in Resources */,
 				D7C125F0166DF9070088C8AF /* main_home_back@2x.png in Resources */,
+				D7C125F4166E00A60088C8AF /* Bebas Neue.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2250,7 +2264,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = aigo/01_SOURCE/01_MAIN/01_APP/AIGO.pch;
-				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = __DEBUG_DRIVER__;
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = (
+					__DEBUG__,
+					__DRIVER__,
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SDKROOT)/usr/include/libxml2",
 					"${SDK_DIR}/usr/include/libxml2",
@@ -2277,7 +2294,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = aigo/01_SOURCE/01_MAIN/01_APP/AIGO.pch;
-				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = __RELEASE_DRIVER__;
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = (
+					__RELEASE__,
+					__DRIVER__,
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SDKROOT)/usr/include/libxml2",
 					"${SDK_DIR}/usr/include/libxml2",
@@ -2304,6 +2324,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = aigo/01_SOURCE/01_MAIN/01_APP/AIGO.pch;
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = (
+					__DEBUG__,
+					__CLIENT__,
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SDKROOT)/usr/include/libxml2",
 					"${SDK_DIR}/usr/include/libxml2",
@@ -2330,6 +2354,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = aigo/01_SOURCE/01_MAIN/01_APP/AIGO.pch;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					__RELEASE__,
+					__CLIENT__,
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SDKROOT)/usr/include/libxml2",
 					"${SDK_DIR}/usr/include/libxml2",

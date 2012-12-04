@@ -99,16 +99,16 @@ static AppViewController *_appVCInstance;
         [self.navigationController popToRootViewControllerAnimated:NO];
     }
 
-#ifdef __RELEASE__PRODUCTION1__
+#ifdef __CLIENT__
     // CLIENT
     ClientMainViewController *clientVC = [ClientMainViewController new];
     [_listOfViewController addObject:clientVC];
     [self.navigationController pushViewController:clientVC animated:YES];
 #else
     // DRIVER
-    ClientMainViewController *clientVC = [ClientMainViewController new];
-    [_listOfViewController addObject:clientVC];
-    [self.navigationController pushViewController:clientVC animated:YES];
+    DriverMainViewController *driverVC = [DriverMainViewController new];
+    [_listOfViewController addObject:driverVC];
+    [self.navigationController pushViewController:driverVC animated:YES];
 #endif
 
 }

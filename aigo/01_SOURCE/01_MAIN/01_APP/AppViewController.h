@@ -20,6 +20,7 @@
 #import "FBFunLoginManager.h"
 #import "SplashScreenViewController.h"
 #import "RecoveryPasswordViewController.h"
+#import "DriverMainViewController.h"
 
 @interface AppViewController : UIViewController {
     NSMutableArray                                  *_listOfViewController;

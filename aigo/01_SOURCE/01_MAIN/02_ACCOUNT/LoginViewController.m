@@ -187,11 +187,14 @@
 //    [ASIFormRequest setPostValue:@"kwilliams"  forKey:@"username"];
 //    [ASIFormRequest setPostValue:@"bonita2k9"  forKey:@"password"];
     
-    if ([self checkBeforeLogin]) {
-        [self login];
-        [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
-        [self.scrollView scrollRectToVisible:CGRectMake(0, 0, 320, 460) animated:YES];
-    }
+    // MinhPB 2012/12/04
+//    if ([self checkBeforeLogin]) {
+//        [self login];
+//        [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
+//        [self.scrollView scrollRectToVisible:CGRectMake(0, 0, 320, 460) animated:YES];
+//    }
+    
+    [[AppViewController Shared] changeToHomeFromWelcomeScreen:YES];
 }
 
 - (IBAction)clickLoginWithFB:(id)sender {
