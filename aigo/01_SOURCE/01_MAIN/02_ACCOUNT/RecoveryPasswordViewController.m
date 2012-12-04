@@ -45,6 +45,8 @@
     [super viewDidUnload];
 }
 
+#pragma mark - Actions
+
 - (IBAction)recoveryPasswordAcction:(id)sender {
     [self hideKeyBoard:nil];
     if (_emailField.text.length > 0) {
@@ -64,6 +66,10 @@
 
 - (IBAction)hideKeyBoard:(id)sender {
     [_emailField resignFirstResponder];
+}
+
+- (void)touchUpInsideBack:(id)sender {
+    [[AppViewController Shared] changeBackFromRecoveryPassword];
 }
 
 #pragma mark - Text Feild Delegate

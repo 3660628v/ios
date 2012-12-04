@@ -14,4 +14,5 @@
 - (IBAction)cancelAcction:(id)sender;
 - (IBAction)hideKeyBoard:(id)sender;
 
+- (IBAction)touchUpInsideBack:(id)sender;
 @end

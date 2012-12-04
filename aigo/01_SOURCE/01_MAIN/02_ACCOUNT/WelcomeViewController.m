@@ -46,4 +46,8 @@
     [[AppViewController Shared] changeToLogin];
 }
 
+- (void)touchUpInsideForgotPass:(id)sender {
+    [[AppViewController Shared] changeToRecoveryPassword];
+}
+
 @end

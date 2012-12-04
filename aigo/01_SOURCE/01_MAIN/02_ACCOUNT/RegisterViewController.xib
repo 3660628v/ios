@@ -42,7 +42,7 @@
 					<object class="IBUIImageView" id="114503167">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrameSize">{320, 480}</string>
+						<string key="NSFrame">{{0, -20}, {320, 480}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="989401682"/>
@@ -51,7 +51,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">img_welcome_image.png</string>
+							<string key="NSResourceName">wc_bg_image.png</string>
 						</object>
 					</object>
 					<object class="IBUIView" id="989401682">
@@ -120,9 +120,9 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<object class="NSCustomResource" key="IBUIImage" id="613383744">
+								<object class="NSCustomResource" key="IBUIImage" id="666563178">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">welcome_field@2x.png</string>
+									<string key="NSResourceName">wc_field.png</string>
 								</object>
 							</object>
 							<object class="IBUIImageView" id="345340034">
@@ -137,7 +137,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">welcome_Email@2x.png</string>
+									<string key="NSResourceName">wc_user_id.png</string>
 								</object>
 							</object>
 							<object class="IBUITextField" id="244387494">
@@ -180,7 +180,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<reference key="IBUIImage" ref="613383744"/>
+								<reference key="IBUIImage" ref="666563178"/>
 							</object>
 							<object class="IBUIImageView" id="649008377">
 								<reference key="NSNextResponder" ref="989401682"/>
@@ -194,7 +194,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">welcome_Password@2x.png</string>
+									<string key="NSResourceName">wc_password.png</string>
 								</object>
 							</object>
 							<object class="IBUITextField" id="800309000">
@@ -234,7 +234,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<reference key="IBUIImage" ref="613383744"/>
+								<reference key="IBUIImage" ref="666563178"/>
 							</object>
 							<object class="IBUIImageView" id="913725414">
 								<reference key="NSNextResponder" ref="989401682"/>
@@ -248,7 +248,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">welcome_faceBook@2x.png</string>
+									<string key="NSResourceName">wc_faceBook.png</string>
 								</object>
 							</object>
 							<object class="IBUILabel" id="372951636">
@@ -319,7 +319,7 @@
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<reference key="IBUIImage" ref="613383744"/>
+								<reference key="IBUIImage" ref="666563178"/>
 							</object>
 							<object class="IBUIImageView" id="545365974">
 								<reference key="NSNextResponder" ref="989401682"/>
@@ -333,7 +333,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">welcome_twiter@2x.png</string>
+									<string key="NSResourceName">wc_twiter.png</string>
 								</object>
 							</object>
 							<object class="IBUILabel" id="330793046">
@@ -395,10 +395,7 @@
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="IBUIUserInteractionEnabled">NO</bool>
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-										<object class="NSCustomResource" key="IBUIImage">
-											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">welcome_field.png</string>
-										</object>
+										<reference key="IBUIImage" ref="666563178"/>
 									</object>
 									<object class="IBUIImageView" id="601649976">
 										<reference key="NSNextResponder" ref="681573439"/>
@@ -412,7 +409,7 @@
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 										<object class="NSCustomResource" key="IBUIImage">
 											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">welcome_age@2x.png</string>
+											<string key="NSResourceName">wc_age.png</string>
 										</object>
 									</object>
 									<object class="IBUIButton" id="813902843">
@@ -858,7 +855,7 @@
 										<reference key="IBUIGestureRecognizers" ref="0"/>
 										<bool key="IBUIUserInteractionEnabled">NO</bool>
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-										<reference key="IBUIImage" ref="613383744"/>
+										<reference key="IBUIImage" ref="666563178"/>
 									</object>
 									<object class="IBUIImageView" id="660135501">
 										<reference key="NSNextResponder" ref="895189092"/>
@@ -872,7 +869,7 @@
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 										<object class="NSCustomResource" key="IBUIImage">
 											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">welcome_gender@2x.png</string>
+											<string key="NSResourceName">wc_gender.png</string>
 										</object>
 									</object>
 									<object class="IBUIButton" id="317117106">
@@ -1035,7 +1032,7 @@
 								<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
 								<object class="NSCustomResource" key="IBUINormalImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">welcome_btn_save_select@2x.png</string>
+									<string key="NSResourceName">wc_register.png</string>
 								</object>
 								<reference key="IBUIFontDescription" ref="675244206"/>
 								<reference key="IBUIFont" ref="550840162"/>
@@ -1129,7 +1126,7 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">head_bg_bar.png</string>
+							<string key="NSResourceName">wc_bg_header_bar.png</string>
 						</object>
 					</object>
 					<object class="IBUIButton" id="210697607">
@@ -1149,7 +1146,7 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 						<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
 						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">btn_home_back.png</string>
+							<string key="NSResourceName">main_home_back.png</string>
 						</object>
 						<object class="IBUIFontDescription" key="IBUIFontDescription">
 							<int key="type">2</int>
@@ -1173,11 +1170,12 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Welcome</string>
+						<string key="IBUIText">Register</string>
 						<reference key="IBUITextColor" ref="292532076"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
 						<float key="IBUIMinimumFontSize">9</float>
+						<int key="IBUITextAlignment">1</int>
 						<object class="IBUIFontDescription" key="IBUIFontDescription">
 							<string key="name">HelveticaNeue-Light</string>
 							<string key="family">Helvetica Neue</string>
@@ -1191,11 +1189,10 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 						</object>
 					</object>
 				</array>
-				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
+				<string key="NSFrameSize">{320, 460}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="114503167"/>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
 			<object class="IBUIView" id="250840442">
@@ -2320,24 +2317,23 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="btn_home_back.png">{103, 49}</string>
-			<string key="head_bg_bar.png">{320, 40}</string>
-			<string key="img_welcome_image.png">{640, 931}</string>
+			<string key="main_home_back.png">{103, 49}</string>
 			<string key="pixel_transparent_white.png">{4, 4}</string>
 			<string key="profile_check.png">{19, 16}</string>
-			<string key="welcome_Email@2x.png">{59, 42}</string>
-			<string key="welcome_Password@2x.png">{39, 56}</string>
-			<string key="welcome_age@2x.png">{54, 56}</string>
+			<string key="wc_age.png">{27, 28}</string>
+			<string key="wc_bg_header_bar.png">{320, 40}</string>
+			<string key="wc_bg_image.png">{640, 960}</string>
+			<string key="wc_faceBook.png">{32, 32}</string>
+			<string key="wc_field.png">{320, 34}</string>
+			<string key="wc_gender.png">{29, 28}</string>
+			<string key="wc_password.png">{20, 28}</string>
+			<string key="wc_register.png">{98, 35}</string>
+			<string key="wc_twiter.png">{31, 31}</string>
+			<string key="wc_user_id.png">{29, 29}</string>
 			<string key="welcome_btn_bg.png">{98, 36}</string>
-			<string key="welcome_btn_save_select@2x.png">{193, 69}</string>
-			<string key="welcome_faceBook@2x.png">{64, 63}</string>
-			<string key="welcome_field.png">{320, 34}</string>
-			<string key="welcome_field@2x.png">{640, 69}</string>
-			<string key="welcome_gender@2x.png">{59, 56}</string>
 			<string key="welcome_lineAge@2x.png">{640, 3}</string>
 			<string key="welcome_pointAge-select.png">{11, 10}</string>
 			<string key="welcome_pointAge.png">{11, 10}</string>
-			<string key="welcome_twiter@2x.png">{61, 60}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">1930</string>
 	</data>
