@@ -447,7 +447,7 @@
 												<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 												<object class="NSCustomResource" key="IBUIImage">
 													<string key="NSClassName">NSImage</string>
-													<string key="NSResourceName">welcome_lineAge@2x.png</string>
+													<string key="NSResourceName">wc_age_line.png</string>
 												</object>
 											</object>
 											<object class="IBUIButton" id="128497953">
@@ -470,13 +470,13 @@
 													<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 												</object>
 												<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
-												<object class="NSCustomResource" key="IBUISelectedImage" id="81384628">
+												<object class="NSCustomResource" key="IBUISelectedImage" id="70506741">
 													<string key="NSClassName">NSImage</string>
-													<string key="NSResourceName">welcome_pointAge-select.png</string>
+													<string key="NSResourceName">wc_age_point_on.png</string>
 												</object>
-												<object class="NSCustomResource" key="IBUINormalImage" id="955487976">
+												<object class="NSCustomResource" key="IBUINormalImage" id="656693033">
 													<string key="NSClassName">NSImage</string>
-													<string key="NSResourceName">welcome_pointAge.png</string>
+													<string key="NSResourceName">wc_age_point_off.png</string>
 												</object>
 												<reference key="IBUIFontDescription" ref="675244206"/>
 												<reference key="IBUIFont" ref="550840162"/>
@@ -536,8 +536,8 @@
 													<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 												</object>
 												<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
-												<reference key="IBUISelectedImage" ref="81384628"/>
-												<reference key="IBUINormalImage" ref="955487976"/>
+												<reference key="IBUISelectedImage" ref="70506741"/>
+												<reference key="IBUINormalImage" ref="656693033"/>
 												<reference key="IBUIFontDescription" ref="675244206"/>
 												<reference key="IBUIFont" ref="550840162"/>
 											</object>
@@ -587,8 +587,8 @@
 													<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 												</object>
 												<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
-												<reference key="IBUISelectedImage" ref="81384628"/>
-												<reference key="IBUINormalImage" ref="955487976"/>
+												<reference key="IBUISelectedImage" ref="70506741"/>
+												<reference key="IBUINormalImage" ref="656693033"/>
 												<reference key="IBUIFontDescription" ref="675244206"/>
 												<reference key="IBUIFont" ref="550840162"/>
 											</object>
@@ -638,8 +638,8 @@
 													<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 												</object>
 												<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
-												<reference key="IBUISelectedImage" ref="81384628"/>
-												<reference key="IBUINormalImage" ref="955487976"/>
+												<reference key="IBUISelectedImage" ref="70506741"/>
+												<reference key="IBUINormalImage" ref="656693033"/>
 												<reference key="IBUIFontDescription" ref="675244206"/>
 												<reference key="IBUIFont" ref="550840162"/>
 											</object>
@@ -689,8 +689,8 @@
 													<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 												</object>
 												<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
-												<reference key="IBUISelectedImage" ref="81384628"/>
-												<reference key="IBUINormalImage" ref="955487976"/>
+												<reference key="IBUISelectedImage" ref="70506741"/>
+												<reference key="IBUINormalImage" ref="656693033"/>
 												<reference key="IBUIFontDescription" ref="675244206"/>
 												<reference key="IBUIFont" ref="550840162"/>
 											</object>
@@ -740,8 +740,8 @@
 													<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 												</object>
 												<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
-												<reference key="IBUISelectedImage" ref="81384628"/>
-												<reference key="IBUINormalImage" ref="955487976"/>
+												<reference key="IBUISelectedImage" ref="70506741"/>
+												<reference key="IBUINormalImage" ref="656693033"/>
 												<reference key="IBUIFontDescription" ref="675244206"/>
 												<reference key="IBUIFont" ref="550840162"/>
 											</object>
@@ -791,8 +791,8 @@
 													<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 												</object>
 												<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
-												<reference key="IBUISelectedImage" ref="81384628"/>
-												<reference key="IBUINormalImage" ref="955487976"/>
+												<reference key="IBUISelectedImage" ref="70506741"/>
+												<reference key="IBUINormalImage" ref="656693033"/>
 												<reference key="IBUIFontDescription" ref="675244206"/>
 												<reference key="IBUIFont" ref="550840162"/>
 											</object>
@@ -940,7 +940,10 @@
 													<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 												</object>
 												<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
-												<reference key="IBUISelectedImage" ref="71201826"/>
+												<object class="NSCustomResource" key="IBUISelectedImage" id="158256066">
+													<string key="NSClassName">NSImage</string>
+													<string key="NSResourceName">wc_profile_check.png</string>
+												</object>
 												<reference key="IBUIFontDescription" ref="675244206"/>
 												<reference key="IBUIFont" ref="550840162"/>
 											</object>
@@ -989,7 +992,7 @@
 													<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 												</object>
 												<reference key="IBUINormalTitleShadowColor" ref="827620018"/>
-												<reference key="IBUISelectedImage" ref="71201826"/>
+												<reference key="IBUISelectedImage" ref="158256066"/>
 												<reference key="IBUIFontDescription" ref="675244206"/>
 												<reference key="IBUIFont" ref="550840162"/>
 											</object>
@@ -2065,34 +2068,34 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 				<string key="183.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="184.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="185.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="0.0" key="185.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="2" key="185.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="186.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="187.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="0.0" key="187.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="2" key="187.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="188.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="189.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="0.0" key="189.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="2" key="189.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="19.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="190.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="191.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="0.0" key="191.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="2" key="191.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="192.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="193.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="0.0" key="193.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="2" key="193.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="194.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="195.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="0.0" key="195.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="2" key="195.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="196.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="197.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="2" key="197.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="0.0" key="197.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="198.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="207.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="208.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="209.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="2" key="209.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="0.0" key="209.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="210.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="211.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="2" key="211.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="0.0" key="211.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="225.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="2" key="225.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="226.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -2329,6 +2332,9 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 			<string key="pixel_transparent_white.png">{4, 4}</string>
 			<string key="profile_check.png">{19, 16}</string>
 			<string key="wc_age.png">{27, 28}</string>
+			<string key="wc_age_line.png">{320, 2}</string>
+			<string key="wc_age_point_off.png">{11, 10}</string>
+			<string key="wc_age_point_on.png">{9, 10}</string>
 			<string key="wc_bg_btn_on.png">{179, 68}</string>
 			<string key="wc_bg_header_bar.png">{320, 40}</string>
 			<string key="wc_bg_image.png">{640, 960}</string>
@@ -2337,11 +2343,9 @@ ZWFkIGFuZCBhZ3JlZSB0byB0aGUgVGVybXMgb2YgU2VydmljZS4</string>
 			<string key="wc_field.png">{320, 34}</string>
 			<string key="wc_gender.png">{29, 28}</string>
 			<string key="wc_password.png">{20, 28}</string>
+			<string key="wc_profile_check.png">{19, 16}</string>
 			<string key="wc_register.png">{98, 35}</string>
 			<string key="wc_twiter.png">{31, 31}</string>
-			<string key="welcome_lineAge@2x.png">{640, 3}</string>
-			<string key="welcome_pointAge-select.png">{11, 10}</string>
-			<string key="welcome_pointAge.png">{11, 10}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">1930</string>
 	</data>

@@ -186,7 +186,7 @@
     } ];
 }
 
--(void)plotTaxiPosition:(CLLocationCoordinate2D)userCoordinate
+- (void)plotTaxiPosition:(CLLocationCoordinate2D)userCoordinate
 {
     for (id<MKAnnotation> annotation in self.mapView.annotations)
     {
@@ -219,7 +219,7 @@
     }
 }
 
--(double)randomFloatBetween:(double)smallNumber andBig:(double)bigNumber {
+- (double)randomFloatBetween:(double)smallNumber andBig:(double)bigNumber {
     double diff = bigNumber - smallNumber;
     return (((double) (arc4random() % ((unsigned)RAND_MAX + 1)) / RAND_MAX) * diff) + smallNumber;
 }

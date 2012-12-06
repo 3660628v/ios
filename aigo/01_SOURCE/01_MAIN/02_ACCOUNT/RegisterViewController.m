@@ -206,18 +206,18 @@ typedef enum
         isIphone5 = YES;
     }
     
-    NSString *imgName = @"welcome_field.png";
+    NSString *imgName = @"wc_field_expanded.png";
     CGFloat temp = 1;
     CGFloat selectorOpacity = 1.0f;
     if(sender.selected) // expand view
     {
-        imgName = @"welcome_fieldExp.png";
+        imgName = @"wc_field_expanded.png";
         temp = 1;
         self.ageSelectorView.hidden = NO;
         self.ageSelectorView.alpha = 0.0f;
     }
     else { // collape view
-        imgName = @"welcome_field.png";
+        imgName = @"wc_field.png";
         temp = -1;
         selectorOpacity = 0.0f;
     }
@@ -289,18 +289,18 @@ typedef enum
         isIphone5 = YES;
     }
 
-    NSString *imgName = @"welcome_field.png";
+    NSString *imgName = @"wc_field_expanded.png";
     CGFloat temp = 1;
     CGFloat selectorOpacity = 1.0f;
     if(sender.selected) // expand view
     {
-        imgName = @"welcome_fieldExp.png";
+        imgName = @"wc_field_expanded.png";
         temp = 1;
         self.genderSelectorView.hidden = NO;
         self.genderSelectorView.alpha = 0.0f;
     }
     else { // collape view
-        imgName = @"welcome_field.png";
+        imgName = @"wc_field.png";
         temp = -1;
         selectorOpacity = 0.0f;
     }
@@ -360,16 +360,13 @@ typedef enum
 
 - (IBAction)saveTouchUpInside:(UIButton *)sender {
     // MinhPB 2012/12/04
-//    if ([self checkForErrorValidation:ENUM_FIELD_CHECK_FIELD_EMPTY]) {
-//        if ([self checkForErrorValidation:ENUM_FIELD_CHECK_EMAIL]) {
-//            if ([self checkForErrorValidation:ENUM_FIELD_CHECK_PASSWORK]) {
-//                [self requestDataWithType:ENUM_API_REQUEST_TYPE_USER_REGISTER];
-//            }
-//        }
-//    }
-    
-    // MinhPB 2012/12/04
-    [[AppViewController Shared] changeToHomeFromWelcomeScreen:YES];
+    if ([self checkForErrorValidation:ENUM_FIELD_CHECK_FIELD_EMPTY]) {
+        if ([self checkForErrorValidation:ENUM_FIELD_CHECK_EMAIL]) {
+            if ([self checkForErrorValidation:ENUM_FIELD_CHECK_PASSWORK]) {
+                [self requestDataWithType:ENUM_API_REQUEST_TYPE_USER_REGISTER];
+            }
+        }
+    }
 }
 
 - (IBAction)facebookBtnTouchUpInside:(UIButton *)sender {
@@ -466,7 +463,7 @@ typedef enum
         return;
     self.ageBtn.selected = NO;
     
-    NSString *imgName = @"welcome_field.png";
+    NSString *imgName = @"wc_field.png";
     UIImage *img = [UIImage imageNamed:imgName];
     CGSize expandSize = img.size;
     [self.ageViewBackground setImage:img];
@@ -496,7 +493,7 @@ typedef enum
         return;
     self.genderBtn.selected = NO;
     
-    NSString *imgName = @"welcome_field.png";
+    NSString *imgName = @"wc_field.png";
     UIImage *img = [UIImage imageNamed:imgName];
     CGSize expandSize = img.size;
     [self.genderViewBackground setImage:img];
@@ -712,6 +709,9 @@ typedef enum
 {
     if (type == ENUM_API_REQUEST_TYPE_USER_REGISTER) {
         // tait: TODO register screen
+//        NSMutableDictionary *userInfo = [NSMutableDictionary dictionaryWithObjects:[NSArray arrayWithObjects:@"", @"", self.emailTextField.text, self.passwordTextField.text, [NSNumber numberWithInt:(self.age - enum_age_10_14)], [NSNumber numberWithInt:(self.gender - enum_gender_female)], nil] forKeys:[NSArray arrayWithObjects:@"fname", @"lname", @"email", @"password", @"age", @"gender", nil]];
+//        [requester requestWithType:type andRootURL:STRING_REQUEST_URL_REGISTRY_ACCOUNT andPostMethodKind:YES andParams:userInfo andDelegate:self];
+        
         NSMutableDictionary *userInfo = [NSMutableDictionary dictionaryWithObjects:[NSArray arrayWithObjects:@"", @"", self.emailTextField.text, self.passwordTextField.text, [NSNumber numberWithInt:(self.age - enum_age_10_14)], [NSNumber numberWithInt:(self.gender - enum_gender_female)], nil] forKeys:[NSArray arrayWithObjects:@"fname", @"lname", @"email", @"password", @"age", @"gender", nil]];
         [requester requestWithType:type andRootURL:STRING_REQUEST_URL_REGISTRY_ACCOUNT andPostMethodKind:YES andParams:userInfo andDelegate:self];
     }

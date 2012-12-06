@@ -11,26 +11,25 @@
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
 
-#ifdef __DEBUG__DEV__
-#define STRING_REQUEST_ROOT                                                 @"http://dev.visikard.vn:6868/vk4"
+#ifdef __DEBUG__
+#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
 #endif
-#ifdef __RELEASE__DEV__
-#define STRING_REQUEST_ROOT                                                 @"http://dev.visikard.vn:6868/vk4"
+#ifdef __RELEASE__
+#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
 #endif
 
 #ifdef __DEBUG__DEV__R1__
-#define STRING_REQUEST_ROOT                                                 @"http://dev.visikard.vn:6868/vk4"
+#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
 #endif
 #ifdef __RELEASE__DEV__R1__
-#define STRING_REQUEST_ROOT                                                 @"http://dev.visikard.vn:6868/vk4"
+#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
 #endif
 
 #ifdef __DEBUG__DEV__R2__
-#define STRING_REQUEST_ROOT                                                 @"http://dev.visikard.vn:6868/vk4"
-//#define STRING_REQUEST_ROOT                                                 @"http://192.168.2.96:8080/vk4"
+#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
 #endif
 #ifdef __RELEASE__DEV__R2__
-#define STRING_REQUEST_ROOT                                                 @"http://dev.visikard.vn:6868/vk4"
+#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
 #endif
 
 //#define STRING_REQUEST_ROOT                                                 @"http://dev.visikard.com:6868/vk4"
@@ -44,7 +43,7 @@
 //#define STRING_REQUEST_ROOT                                                 @"http://216.119.158.150:6868/vk4"
 
 #ifndef STRING_REQUEST_ROOT
-#define STRING_REQUEST_ROOT                                                 @"http://108.166.81.13:6868/vk4"
+#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
 #endif
 
 #define TIMER_REQUEST_TIMEOUT											60
