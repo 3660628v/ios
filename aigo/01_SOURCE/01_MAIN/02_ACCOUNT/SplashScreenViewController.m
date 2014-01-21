@@ -1,6 +1,6 @@
 //
 //  SplashScreenViewController.m
-//  VISIKARD
+//  trongvm
 //
 //  Created by Huu Vinh Huynh on 6/7/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.

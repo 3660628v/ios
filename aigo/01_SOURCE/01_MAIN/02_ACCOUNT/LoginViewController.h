@@ -1,6 +1,6 @@
 //
 //  LoginViewController.h
-//  VISIKARD
+//  trongvm
 //
 //  Created by Phan Ba Minh on 5/30/12.
 //  Copyright (c) 2012 kidbaw. All rights reserved.

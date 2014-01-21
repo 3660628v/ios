@@ -1,6 +1,6 @@
 //
 //  WelcomeViewController.h
-//  VISIKARD
+//  trongvm
 //
 //  Created by Phan Ba Minh on 11/15/12.
 //

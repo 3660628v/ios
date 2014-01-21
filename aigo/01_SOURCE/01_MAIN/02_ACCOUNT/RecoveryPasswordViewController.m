@@ -1,6 +1,6 @@
 //
 //  RecoveryPasswordViewController.m
-//  VISIKARD
+//  trongvm
 //
 //  Created by Vinh Huynh on 10/2/12.
 //

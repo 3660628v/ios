@@ -1,6 +1,6 @@
 //
 //  ImplicitRequester.h
-//  VISIKARD
+//  trongvm
 //
 //  Created by Phan Ba Minh on 11/6/12.
 //

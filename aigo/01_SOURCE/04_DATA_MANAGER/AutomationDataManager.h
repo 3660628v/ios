@@ -1,6 +1,6 @@
 //
 //  AutomationDataManager.h
-//  VISIKARD
+//  trongvm
 //
 //  Created by Phan Ba Minh on 6/15/12.
 //  Copyright (c) 2012 kidbaw. All rights reserved.

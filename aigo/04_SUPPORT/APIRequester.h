@@ -12,43 +12,43 @@
 #import "ASIFormDataRequest.h"
 
 #ifdef __DEBUG__
-#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
+#define STRING_REQUEST_ROOT                                                 @"http://taxi.ap01.aws.af.cm"
 #endif
 #ifdef __RELEASE__
-#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
+#define STRING_REQUEST_ROOT                                                 @"http://taxi.ap01.aws.af.cm"
 #endif
 
 #ifdef __DEBUG__DEV__R1__
-#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
+#define STRING_REQUEST_ROOT                                                 @"http://taxi.ap01.aws.af.cm"
 #endif
 #ifdef __RELEASE__DEV__R1__
-#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
+#define STRING_REQUEST_ROOT                                                 @"http://taxi.ap01.aws.af.cm"
 #endif
 
 #ifdef __DEBUG__DEV__R2__
-#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
+#define STRING_REQUEST_ROOT                                                 @"http://taxi.ap01.aws.af.cm"
 #endif
 #ifdef __RELEASE__DEV__R2__
-#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
+#define STRING_REQUEST_ROOT                                                 @"http://taxi.ap01.aws.af.cm"
 #endif
 
-//#define STRING_REQUEST_ROOT                                                 @"http://dev.visikard.com:6868/vk4"
-//#define STRING_REQUEST_ROOT                                                 @"http://dev1.visikard.com:6868/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://dev.trongvm.com:6868/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://dev1.trongvm.com:6868/vk4"
 //#define STRING_REQUEST_ROOT                                                 @"http://192.168.2.83:8080/vk4"
 //#define STRING_REQUEST_ROOT                                                 @"http://khanh-pc:8080/vk4"
 //#define STRING_REQUEST_ROOT                                                 @"http://192.168.2.150:8080/vk4"
-//#define STRING_REQUEST_ROOT                                                 @"http://lcalserver.visikard.vn/vk4"
-//#define STRING_REQUEST_ROOT                                                 @"http://staging1.visikard.com:6868/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://lcalserver.trongvm.vn/vk4"
+//#define STRING_REQUEST_ROOT                                                 @"http://staging1.trongvm.com:6868/vk4"
 //#define STRING_REQUEST_ROOT                                                 @"http://216.119.157.11:6868/vk4"
 //#define STRING_REQUEST_ROOT                                                 @"http://216.119.158.150:6868/vk4"
 
 #ifndef STRING_REQUEST_ROOT
-#define STRING_REQUEST_ROOT                                                 @"http://aigo-admin.herokuapp.com"
+#define STRING_REQUEST_ROOT                                                 @"http://taxi.ap01.aws.af.cm"
 #endif
 
 #define TIMER_REQUEST_TIMEOUT											60
 
-//http://dev1.visikard.com:6868/vk4/serversetupinfo/2
+//http://dev1.trongvm.com:6868/vk4/serversetupinfo/2
 
 
 #define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
@@ -467,7 +467,7 @@
 #define STRING_RESPONSE_KEY_PARENTAL_IS_CHECK                           @"parentalisCheck"
 #define STRING_RESPONSE_KEY_KEY_WORK_IS_CHECK                           @"keyWordischeck"
 #define STRING_RESPONSE_KEY_ALIGNMENT                                   @"alignment"
-#define STRING_RESPONSE_KEY_TEMPLATE_ID                                 @"idVisikardTemplates"
+#define STRING_RESPONSE_KEY_TEMPLATE_ID                                 @"idtrongvmTemplates"
 
 #define STRING_RESPONSE_KEY_LAYER1                                      @"layer1"
 #define STRING_RESPONSE_KEY_LAYER1X                                     @"layer1X"
@@ -581,7 +581,7 @@
 #define STRING_ALERT_CONNECTION_ERROR_TITLE                             @"Offline"
 #define STRING_ALERT_CONNECTION_ERROR									@"Sorry, this function is not available in offline mode.  Please connect to the internet to perform this function"
 //#define STRING_ALERT_SERVER_ERROR                                       @"Sorry, server's response is not in the format"
-#define STRING_ALERT_SERVER_ERROR                                       @"We are sorry, the VisiKard server is temporarily offline for an upgrade...We will be back within the next few minutes. Please try again."
+#define STRING_ALERT_SERVER_ERROR                                       @"We are sorry, the trongvm server is temporarily offline for an upgrade...We will be back within the next few minutes. Please try again."
 
 #define STRING_ALERT_DATA_IS_NIL										@"DATA is nil"
 
@@ -593,7 +593,7 @@
 #define BK_PROFILE_KARD_ADDRESS                                         @"address"
 
 
-#define kSqliteFileName @"VisiKard"
+#define kSqliteFileName @"trongvm"
 
 @protocol APIRequesterProtocol <NSObject>
 
